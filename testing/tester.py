@@ -11,7 +11,6 @@ from tqdm import tqdm
 import omegaconf
 import hydra
 import soundfile as sf
-import shutil
 
 from testing.operators.subband_filtering import BlindSubbandFiltering
 from testing.operators.reverb import RIROperator
@@ -103,7 +102,6 @@ class Tester():
     ##############################
 
     def sample_unconditional(self, mode):
-        #the audio length is specified in the args.exp, doesnt depend on the tester --> well should probably change that
         audio_len = self.args.exp.audio_len if not "audio_len" in self.args.tester.unconditional.keys() else self.args.tester.unconditional.audio_len
         shape = [self.args.tester.unconditional.num_samples, audio_len]
         preds = self.sampler.predict_unconditional(shape, self.device)
@@ -186,47 +184,6 @@ class Tester():
 
 
 
-
-    ###########################
-    ### BANDWIDTH EXTENSION ###
-    ###########################
-
-    def test_bandwidth_extension(self, mode, blind=False):
-
-        if self.test_set is None:
-            print("No test set specified")
-            return
-        if len(self.test_set) == 0:
-            print("No samples found in test set")
-            return
-        
-        assert self.args.tester.bandwidth_extension.filter_type == "BABE_LPF"
-        from testing.operators.BABE_filters import BABE_LPF_Operator
-
-        operator_ref = BABE_LPF_Operator(self.args.tester.bandwidth_extension.op_hp, self.args.exp.sample_rate).to(self.device)
-        operator_ref.update_params([self.args.tester.bandwidth_extension.test_op_params.fc, self.args.tester.bandwidth_extension.test_op_params.A])
-
-        if blind:
-            operator_blind = BABE_LPF_Operator(self.args.tester.bandwidth_extension.op_hp, self.args.exp.sample_rate).to(self.device)
-
-        for _, (original,  filename) in enumerate(tqdm(self.test_set)):
-
-            seg=torch.from_numpy(original).float().to(self.device)
-
-            # Forward pass with true filter
-            with torch.no_grad():
-                y = operator_ref.degradation(seg.unsqueeze(0))
-                
-            pred = self.sampler.predict_conditional(y, operator_blind if blind else operator_ref, shape=(1,seg.shape[-1]), blind=blind)
-
-            path_original=utils_logging.write_audio_file(seg, self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"original"])
-            path_degraded=utils_logging.write_audio_file(y, self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"degraded"])
-            path_reconstructed=utils_logging.write_audio_file(pred, self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"reconstructed"])
-            
-
-
-
-
     def prepare_directories(self, mode, unconditional=False, blind=False):
             
             today=date.today() 
@@ -295,19 +252,5 @@ class Tester():
                     self.save_experiment_args(m)
                 self.test_dereverberation(m, blind=True)
 
-            elif m == "informed_bandwidth_extension":
-                print("testing informed bwe")
-                if not self.in_training:
-                    self.prepare_directories(m)
-                    self.save_experiment_args(m)
-                self.test_bandwidth_extension(m)
-
-            elif m == "blind_bandwidth_extension":
-                print("testing blind bwe")
-                if not self.in_training:
-                    self.prepare_directories(m)
-                    self.save_experiment_args(m)
-                self.test_bandwidth_extension(m, blind=True)
-                
             else:
                 print("Warning: unknown mode: ", m)
