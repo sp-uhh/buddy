@@ -16,7 +16,7 @@ You can access our pretrained checkpoint, trained on VCTK anechoic speech, at [t
 
 You can launch blind dereverberation with `bash test_blind_dereverberation.sh`.
 You can launch informed dereverberation with `bash test_informed_dereverberation.sh`.
-In both cases, do not forget to add the path to the pretrained model checkpoint in the bash file (i.e. replace `,ckpt=<pretrained-vctk-checkpoint.pt>` with your path)
+In both cases, do not forget to add the path to the pretrained model checkpoint in the bash file (i.e. replace `ckpt=<pretrained-vctk-checkpoint.pt>` with your path)
 
 ## 4 - Training
 
@@ -28,9 +28,11 @@ Do not forget to fill in the path to your training and testing dataset (i.e. rep
 If you used this repo for your own work, do not forget to cite us:
 
 @bibtex
+```
 @article{moliner2024buddy,
     title={{BUDD}y: Single-channel Blind Unsupervised Dereverberation with Diffusion Models},
     author={Moliner, Eloi and Lemercier, Jean-Marie and Welker, Simon and Gerkmann, Timo and V\"alim\"aki, Vesa},
     year={2024},
     journal={arXiv xxxx/xxxx}
-} I just invited you to a new Slack! I will invite the others as well. Just need to check how many workspaces I can keep with my free trial.
+}
+```
