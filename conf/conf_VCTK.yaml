@@ -6,7 +6,7 @@ defaults:
   - exp: VCTK_16k_4s_time
   - logging: base_logging
 
-model_dir: "experiments/1"
+model_dir: "experiments"
 
 hydra:
   job:

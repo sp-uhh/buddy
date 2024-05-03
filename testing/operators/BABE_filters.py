@@ -4,7 +4,6 @@ import torch
 from testing.operators.shared import Operator
 import utils.blind_bwe_utils as blind_bwe_utils
 
-
 class BABE_LPF_Operator(Operator):
     def __init__(self, op_hp, sample_rate):
         """

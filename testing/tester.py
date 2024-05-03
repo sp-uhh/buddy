@@ -18,8 +18,6 @@ from testing.operators.reverb import RIROperator
 
 import utils.log as utils_logging
 import utils.training_utils as tr_utils
-import utils.testing_utils as tt_utils
-import utils.reverb_utils as reverb_utils
 
 class Tester():
     def __init__(
@@ -69,15 +67,6 @@ class Tester():
         print("loading checkpoint")
         return tr_utils.load_state_dict(state_dict, ema=self.network)
 
-    def load_checkpoint_op(self, path):
-        state_dict = torch.load(path, map_location=self.device)
-        try:
-            self.it=state_dict['it']
-        except:
-            self.it=0
-        print("loading checkpoint for operator network")
-        return tr_utils.load_state_dict(state_dict, ema=self.network_op)
-
     def load_checkpoint_legacy(self, path):
         state_dict = torch.load(path, map_location=self.device)
 
@@ -116,8 +105,8 @@ class Tester():
     def sample_unconditional(self, mode):
         #the audio length is specified in the args.exp, doesnt depend on the tester --> well should probably change that
         audio_len = self.args.exp.audio_len if not "audio_len" in self.args.tester.unconditional.keys() else self.args.tester.unconditional.audio_len
-        shape=[self.args.tester.unconditional.num_samples, audio_len]
-        preds=self.sampler.predict_unconditional(shape, self.device)
+        shape = [self.args.tester.unconditional.num_samples, audio_len]
+        preds = self.sampler.predict_unconditional(shape, self.device)
 
         if not self.in_training:
             for i in range(len(preds)):
@@ -290,30 +279,35 @@ class Tester():
                 if not self.in_training:
                     self.prepare_directories(m, unconditional=True)
                     self.save_experiment_args(m)
-                self.sample_unconditional(m)
+                return self.sample_unconditional(m)
+            
             elif m == "informed_dereverberation":
                 print("testing informed dereverberation")
                 if not self.in_training:
                     self.prepare_directories(m)
                     self.save_experiment_args(m)
                 self.test_dereverberation(m)
+
             elif m == "blind_dereverberation":
                 print("testing blind dereverberation")
                 if not self.in_training:
                     self.prepare_directories(m)
                     self.save_experiment_args(m)
                 self.test_dereverberation(m, blind=True)
+
             elif m == "informed_bandwidth_extension":
                 print("testing informed bwe")
                 if not self.in_training:
                     self.prepare_directories(m)
                     self.save_experiment_args(m)
                 self.test_bandwidth_extension(m)
+
             elif m == "blind_bandwidth_extension":
                 print("testing blind bwe")
                 if not self.in_training:
                     self.prepare_directories(m)
                     self.save_experiment_args(m)
                 self.test_bandwidth_extension(m, blind=True)
+                
             else:
                 print("Warning: unknown mode: ", m)

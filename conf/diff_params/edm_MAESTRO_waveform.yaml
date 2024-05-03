@@ -1,9 +1,6 @@
 #Elucidated Diffusion Model (Karras et al. 2022)
 _target_: "diff_params.edm.EDM"
 
-defaults: 
-  - shared
-
 # SDE hyperparameters
 type: "ve_karras"
 sde_hp:

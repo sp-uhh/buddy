@@ -13,7 +13,6 @@ code."""
 import re
 import numpy as np
 import torch
-import utils.dnnlib as dnnlib
 
 from . import misc
 
@@ -210,16 +209,16 @@ class Collector:
 
     def as_dict(self):
         r"""Returns the averages accumulated between the last two calls to
-        `update()` as an `dnnlib.EasyDict`. The contents are as follows:
+        `update()` as an `misc.EasyDict`. The contents are as follows:
 
-            dnnlib.EasyDict(
-                NAME = dnnlib.EasyDict(num=FLOAT, mean=FLOAT, std=FLOAT),
+            misc.EasyDict(
+                NAME = misc.EasyDict(num=FLOAT, mean=FLOAT, std=FLOAT),
                 ...
             )
         """
-        stats = dnnlib.EasyDict()
+        stats = misc.EasyDict()
         for name in self.names():
-            stats[name] = dnnlib.EasyDict(num=self.num(name), mean=self.mean(name), std=self.std(name))
+            stats[name] = misc.EasyDict(num=self.num(name), mean=self.mean(name), std=self.std(name))
         return stats
 
     def __getitem__(self, name):

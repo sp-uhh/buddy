@@ -44,45 +44,30 @@ def get_loss(loss_args, operator=None):
 
                     elif loss_args.name == "l2_comp_stft_sum":
                         compression_factor = loss_args.get("compression_factor", None)
-                        #print(compression_factor, "rec")
                         assert compression_factor is not None and compression_factor > 0. and compression_factor <= 1., f"Compression factor weird: {compression_factor}"
-                        #compression_factor = 1
                         X_comp =  (X.abs()+1e-8)**compression_factor * torch.exp(1j*X.angle())
                         X_hat_comp= (X_hat.abs()+1e-8)**compression_factor * torch.exp(1j*X_hat.angle())
                         loss= torch.sum((X_comp - X_hat_comp).abs()**2)
-                        #return torch.sum((X_comp - X_hat_comp).abs()**2)
+
                     elif loss_args.name == "l2_comp_stft_mean":
                         compression_factor = loss_args.get("compression_factor", None)
-                        #print(compression_factor, "rec")
                         assert compression_factor is not None and compression_factor > 0. and compression_factor <= 1., f"Compression factor weird: {compression_factor}"
-                        #compression_factor = 1
                         X_comp =  (X.abs()+1e-8)**compression_factor * torch.exp(1j*X.angle())
                         X_hat_comp= (X_hat.abs()+1e-8)**compression_factor * torch.exp(1j*X_hat.angle())
                         loss= torch.mean((X_comp - X_hat_comp).abs()**2)
-                        #return torch.sum((X_comp - X_hat_comp).abs()**2)
+
                     elif loss_args.name == "l2_comp_stft_summean":
                         compression_factor = loss_args.get("compression_factor", None)
-                        #print(compression_factor, "rec")
                         assert compression_factor is not None and compression_factor > 0. and compression_factor <= 1., f"Compression factor weird: {compression_factor}"
-                        #compression_factor = 1
                         X_comp =  (X.abs()+1e-8)**compression_factor * torch.exp(1j*X.angle())
                         X_hat_comp= (X_hat.abs()+1e-8)**compression_factor * torch.exp(1j*X_hat.angle())
-                        #reduce with sum in frequency and mean in time
-                        #loss= torch.mean((X_comp - X_hat_comp).abs()**2)
-                        #print("X_comp shape",X_comp.shape)
                         loss= torch.mean(torch.sum((X_comp - X_hat_comp).abs()**2, dim=-2))
 
-
-                        #return torch.sum((X_comp - X_hat_comp).abs()**2)
                     elif loss_args.name == "l2_log_stft_sum":
-                        #compression_factor = loss_args.get("compression_factor", None)
-                        #print(compression_factor, "rec")
-                        #assert compression_factor is not None and compression_factor > 0. and compression_factor <= 1., f"Compression factor weird: {compression_factor}"
-                        #compression_factor = 1
                         X_comp =  torch.log(1+X.abs())* torch.exp(1j*X.angle())
                         X_hat_comp= torch.log(1+X_hat.abs())* torch.exp(1j*X_hat.angle())
                         loss= torch.sum((X_comp - X_hat_comp).abs()**2)
-                        #return torch.sum((X_comp - X_hat_comp).abs()**2)
+
                     else:
                         raise NotImplementedError(f"rec_loss {loss_args.name} not implemented")
 
@@ -91,21 +76,6 @@ def get_loss(loss_args, operator=None):
                     return weight*loss
                 return lambda x, x_hat: loss_fn(x, x_hat)
 
-            elif "rir_prior" in loss_args.name:
-                if loss_args.name == "rir_prior_l1_sparsity":
-                    def loss_fn(x):
-                        loss= torch.sum(torch.abs(x))
-                        weight=loss_args.get("weight", 1.)
-                        return weight*loss
-                    return lambda x: loss_fn(x)
-                elif loss_args.name == "rir_prior_l1/l2_sparsity":
-                    def loss_fn(x):
-                        l1= torch.sum(torch.abs(x))
-                        l2= torch.sum(x**2)
-                        loss= l1/l2
-                        weight=loss_args.get("weight", 1.)
-                        return weight*loss
-                    return lambda x: loss_fn(x)
             else:
                 if loss_args.name == "l2_sum":
                     def loss_fn(x, x_hat):

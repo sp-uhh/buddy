@@ -18,12 +18,7 @@ class EulerHeunSampler(Sampler):
         self.order=self.args.tester.sampling_params.order
 
     def initialize_x(self, shape, device, schedule):
-        if self.args.tester.posterior_sampling.warm_initialization.mode == "none":
-            x = schedule[0]*torch.randn(shape).to(device)
-
-        else:
-            raise NotImplementedError
-        
+        x = schedule[0]*torch.randn(shape).to(device)
         return x
     
     def get_gamma(self, t):
@@ -83,7 +78,6 @@ class EulerHeunSampler(Sampler):
         blind=False
     ):
 
-
         #get the noise schedule
         t = self.create_schedule().to(device)
 
@@ -95,9 +89,9 @@ class EulerHeunSampler(Sampler):
 
         for i in tqdm(range(0, self.T, 1)):
             self.step_counter=i
-            x, x_den =self.step(x, t[i] , t[i+1], gamma[i], blind)
+            x, x_den = self.step(x, t[i] , t[i+1], gamma[i], blind)
             
-        return x_den.detach()
+        return x.detach()
 
     def predict_unconditional(
         self,

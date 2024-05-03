@@ -10,7 +10,6 @@ import re
 import hydra
 import wandb
 import omegaconf
-import ot
 
 from utils.torch_utils import training_stats
 from utils.torch_utils import misc
@@ -40,7 +39,7 @@ class Trainer():
         self.tester = tester
         self.tester.use_wandb = False # We do not want to interfere with the training wandb, as we do the logging in Trainer() and not in Tester()
 
-        self.optimizer=hydra.utils.instantiate(args.exp.optimizer, params=network.parameters())
+        self.optimizer = hydra.utils.instantiate(args.exp.optimizer, params=network.parameters())
         
         self.ema = copy.deepcopy(self.network).eval().requires_grad_(False)
 
@@ -57,38 +56,34 @@ class Trainer():
         print("total_params: ",self.total_params/1e6, "M")
         
         # Checkpoint Resuming
-        self.latest_checkpoint=None
-        resuming=False
+        self.latest_checkpoint = None
+        resuming = False
         if self.args.exp.resume:
             if self.args.exp.resume_checkpoint != "None":
-                resuming =self.resume_from_checkpoint(checkpoint_path=self.args.exp.resume_checkpoint)
+                resuming = self.resume_from_checkpoint(checkpoint_path=self.args.exp.resume_checkpoint)
             else:
-                resuming =self.resume_from_checkpoint()
+                resuming = self.resume_from_checkpoint()
             if not resuming:
                 print("Could not resume from checkpoint")
                 print("training from scratch")
             else:
                 print("Resuming from iteration {}".format(self.it))
         if not resuming:
-            self.it=0
-            self.latest_checkpoint=None
+            self.it = 0
+            self.latest_checkpoint = None
             if tester is not None:
-                self.tester.it=0
+                self.tester.it = 0
 
         # Model Summary
         if self.args.logging.print_model_summary:
-            #if dist.get_rank() == 0:
             with torch.no_grad():
-                audio=torch.zeros([args.exp.batch_size,args.exp.audio_len], device=device).unsqueeze(1)
+                audio = torch.zeros([args.exp.batch_size,args.exp.audio_len], device=device).unsqueeze(1)
                 sigma = torch.ones([args.exp.batch_size], device=device)
                 misc.print_module_summary(self.network, [audio, sigma ], max_nesting=2)
 
         # Logger Setup
         if self.args.logging.log:
-            #assert self.args.logging.heavy_log_interval % self.args.logging.save_interval == 0 #sorry for that, I just want to make sure that you are not wasting your time by logging too often, as the tester is only updated with the ema weights from a checkpoint
             self.setup_wandb()
-            if self.tester is not None:
-               self.tester.setup_wandb_run(self.wandb_run)
             self.setup_logging_variables()
 
         # Profiler
@@ -98,14 +93,13 @@ class Trainer():
         """
         Configure wandb, open a new run and log the configuration.
         """
-        config=omegaconf.OmegaConf.to_container(
+        config = omegaconf.OmegaConf.to_container(
             self.args, resolve=True, throw_on_missing=True
         )
         config["total_params"]=self.total_params
-        # self.wandb_run=wandb.init(project=self.args.logging.wandb.project, entity=self.args.logging.wandb.entity, config=config)
         self.wandb_run=wandb.init(project=self.args.logging.wandb.project, config=config, dir=self.args.model_dir)
         wandb.watch(self.network, log="all", log_freq=self.args.logging.heavy_log_interval) #wanb.watch is used to log the gradients and parameters of the model to wandb. And it is used to log the model architecture and the model summary and the model graph and the model weights and the model hyperparameters and the model performance metrics.
-        self.wandb_run.name=os.path.basename(self.args.model_dir)+"_"+self.args.exp.exp_name+"_"+self.wandb_run.id #adding the experiment number to the run name, bery important, I hope this does not crash
+        self.wandb_run.name = os.path.basename(self.args.model_dir)+"_"+self.args.exp.exp_name+"_"+self.wandb_run.id #adding the experiment number to the run name, bery important, I hope this does not crash
 
     def setup_logging_variables(self):
         self.sigma_bins = np.logspace(np.log10(self.args.diff_params.sde_hp.sigma_min), np.log10(self.args.diff_params.sde_hp.sigma_max), num=self.args.logging.num_sigma_bins, base=10)
@@ -132,7 +126,6 @@ class Trainer():
 
             try:
                 checkpoint=torch.load(os.path.join(self.args.model_dir,checkpoint_path), map_location=self.device)
-                # print(checkpoint.keys())
                 #if it is possible, retrieve the iteration number from the checkpoint
                 try:
                     self.it = checkpoint['it']
@@ -156,13 +149,11 @@ class Trainer():
                     # find latest checkpoint_id
                     save_basename = f"{self.args.exp.exp_name}-*.pt"
                     save_name = f"{self.args.model_dir}/{save_basename}"
-                    # print(save_name)
                     list_weights = glob(save_name)
                     id_regex = re.compile(f"{self.args.exp.exp_name}-(\d*)\.pt")
                     list_ids = [int(id_regex.search(weight_path).groups()[0])
                                 for weight_path in list_weights]
                     checkpoint_id = max(list_ids)
-                    # print(checkpoint_id)
     
                 checkpoint = torch.load(
                     f"{self.args.model_dir}/{self.args.exp.exp_name}-{checkpoint_id}.pt", map_location=self.device)
@@ -176,7 +167,6 @@ class Trainer():
             except Exception as e:
                 print(e)
                 return False
-
 
     def state_dict(self):
         return {
@@ -210,7 +200,7 @@ class Trainer():
         """
         #sigma values are ranged between self.args.diff_params.sigma_min and self.args.diff_params.sigma_max. We need to quantize the values of sigma into 10 logarithmically spaced bins between self.args.diff_params.sigma_min and self.args.diff_params.sigma_max
         torch.nan_to_num(error) #not tested might crash
-        error=error.detach().cpu().numpy()
+        error = error.detach().cpu().numpy()
         training_stats.report('loss', error.mean())
 
         for i in range(len(self.sigma_bins)):
@@ -221,7 +211,7 @@ class Trainer():
 
             else:
                 mask = (sigma <= self.sigma_bins[i]) & (sigma > self.sigma_bins[i-1])
-            mask=mask.squeeze(-1).cpu()
+            mask = mask.squeeze(-1).cpu()
             if mask.sum() > 0:
                 # find the index of the first element of the mask
                 idx = np.where(mask==True)[0][0]
@@ -232,65 +222,16 @@ class Trainer():
         sample = next(self.dset).to(self.device)
         return sample
 
-    def do_minibatch_OT(self, x):
-        '''
-        Do minibatch OT
-        Naive implementation where the pairwise matrix is computed across complete instances in the minibatch
-        TODO: add chunk-based implementation
-        '''
-        shape=x.shape
-        
-        if self.args.exp.minibatch_OT.chunk_size !="None":
-            x = x.view(-1, self.args.exp.minibatch_OT.chunk_size)
-
-        noise=torch.randn_like(x)
-        #compute matrix of pairwise l2 distances
-        #M=torch.cdist(x.view(x.shape[0],-1), noise.view(noise.shape[0],-1))**2
-        M=((x[:,None,:] - noise[None,:,:])**2).mean(-1)
-
-        a=torch.ones(x.shape[0])/x.shape[0]
-        #a=a.to(M.device)
-        b=torch.ones(noise.shape[0])/noise.shape[0]
-        #b=b.to(M.device)
-        p=ot.emd(a,b, M.detach().cpu())
-        #p=ot.sinkhorn(a,b, M.detach().cpu())
-        p=p.to(self.device)
-
-        p*=x.shape[0]
-        p/=p.sum(-1)
-
-        normalized_P = p / p.sum(dim=1, keepdim=True)
-        index = torch.multinomial(normalized_P, 1, replacement=True).squeeze()
-
-        #print("pi", p)
-        #p = p.flatten()
-        #p = p / p.sum()
-
-        #choices = np.random.choice(x.shape[0] * x.shape[0], p=p, size=x.shape[0])
-
-        #i,j=np.divmod(choices, x.shape[0])
-
-        #x=x[i]
-        noise=noise[index]
-        #if self.args.exp.minibatch_OT.chunk_size !="None":
-        noise=noise.view(shape)
-
-        return noise    
-
     def train_step(self):
         '''Training step'''
         self.optimizer.zero_grad()
 
         sample = self.get_batch()
-        print(sample.std())
-        if self.args.exp.minibatch_OT.use:
-            noise=self.do_minibatch_OT(sample)
-        else:
-            noise=None
+        noise = None
 
         error, sigma = self.diff_params.loss_fn(self.network, sample, n=noise)
         loss = error.mean()
-        loss.backward() #TODO: take care of the loss scaling if using mixed precision
+        loss.backward()
         
         if self.args.exp.use_grad_clip:
             torch.nn.utils.clip_grad_norm_(self.network.parameters(), self.args.exp.max_grad_norm)
@@ -305,7 +246,7 @@ class Trainer():
         """Update exponential moving average of self.network weights."""
 
         ema_rampup = self.args.exp.ema_rampup  #ema_rampup should be set to 10000 in the config file
-        ema_rate=self.args.exp.ema_rate #ema_rate should be set to 0.9999 in the config file
+        ema_rate = self.args.exp.ema_rate #ema_rate should be set to 0.9999 in the config file
         t = self.it * self.args.exp.batch_size
         with torch.no_grad():
             if t < ema_rampup:
@@ -322,20 +263,19 @@ class Trainer():
         I will use the training_stats.report function for this, and aim to report the means and stds of the losses in wandb
         """
         training_stats.default_collector.update()
-        loss_mean=training_stats.default_collector.mean('loss')
+        loss_mean = training_stats.default_collector.mean('loss')
         self.wandb_run.log({'loss': loss_mean}, step=self.it)
 
         #Fancy plot for error with respect to sigma
-        sigma_means=[]
-        sigma_stds=[]
+        sigma_means = []
+        sigma_stds = []
         for i in range(len(self.sigma_bins)):
-            a=training_stats.default_collector.mean('error_sigma_'+str(self.sigma_bins[i]))
+            a = training_stats.default_collector.mean('error_sigma_'+str(self.sigma_bins[i]))
             sigma_means.append(a)
-            # self.wandb_run.log({'error_sigma_'+str(self.sigma_bins[i]):a}, step=self.it) #Lots of verbose on WandB
-            a=training_stats.default_collector.std('error_sigma_'+str(self.sigma_bins[i]))
+            a = training_stats.default_collector.std('error_sigma_'+str(self.sigma_bins[i]))
             sigma_stds.append(a)
 
-        figure=utils_logging.plot_loss_by_sigma(sigma_means,sigma_stds, self.sigma_bins)
+        figure = utils_logging.plot_loss_by_sigma(sigma_means,sigma_stds, self.sigma_bins)
         wandb.log({"loss_dependent_on_sigma": figure}, step=self.it, commit=True)
 
     def heavy_logging(self):
@@ -345,17 +285,19 @@ class Trainer():
         if self.tester is not None:
             if self.latest_checkpoint is not None:
                 self.tester.load_checkpoint(self.latest_checkpoint)
-            #setup wandb in tester
-            self.tester.do_test(it=self.it)
+            audio = self.tester.do_test(it=self.it)
 
-    def log_audio(self,x, name):
-        string=name+"_"+self.args.tester.name
+            for i, x in enumerate(audio):
+                self.log_audio(x, f"sample_{i}")
 
-        audio_path=utils_logging.write_audio_file(x,self.args.exp.sample_rate, string,path=self.args.model_dir, normalize=True)
+    def log_audio(self, x, name):
+        string = name+"_"+self.args.tester.name
+
+        audio_path = utils_logging.write_audio_file(x,self.args.exp.sample_rate, string,path=self.args.model_dir, normalize=True)
         self.wandb_run.log({"audio_"+str(string): wandb.Audio(audio_path, sample_rate=self.args.exp.sample_rate)},step=self.it)
 
         if self.args.logging.log_spectrograms:
-            spec_sample=utils_logging.plot_spectrogram_from_raw_audio(x, self.args.logging.stft)
+            spec_sample = utils_logging.plot_spectrogram_from_raw_audio(x, self.args.logging.stft)
             self.wandb_run.log({"spec_"+str(string): spec_sample}, step=self.it)
 
     def training_loop(self):
@@ -365,17 +307,16 @@ class Trainer():
             self.update_ema()
             
             if self.profile and self.args.logging.log:
-                # print(self.profile, self.profile_total_steps, self.it)
-                if self.it<self.profile_total_steps:
+                if self.it < self.profile_total_steps:
                     self.profiler.step()
-                elif self.it==self.profile_total_steps +1:
+                elif self.it == self.profile_total_steps +1:
                     #log trace as an artifact in wandb
                     profile_art = wandb.Artifact(f"trace-{wandb.run.id}", type="profile")
                     profile_art.add_file(glob("wandb/latest-run/tbprofile/*.pt.trace.json")[0], "trace.pt.trace.json")
                     wandb.log_artifact(profile_art)
                     print("profiling done")
-                elif self.it>self.profile_total_steps +1:
-                    self.profile=False
+                elif self.it > self.profile_total_steps +1:
+                    self.profile = False
 
             if self.it>0 and self.it%self.args.logging.save_interval==0 and self.args.logging.save_model:
                 self.save_checkpoint()

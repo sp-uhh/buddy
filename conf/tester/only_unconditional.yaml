@@ -10,8 +10,6 @@ modes: ["unconditional"] #modes to test
 
 checkpoint: None
 
-
-
 sampling_params:
   same_as_training: False #if true, the sampling parameters will be the same as the ones used for training (sigma_data, sigma_min, sigma_max and rho)
   sde_hp:
@@ -24,23 +22,12 @@ sampling_params:
   Stmin: 0
   Stmax: 10
   order: 2 #order of the sampler (1 or 2)
-  T: 35 #number of discretizatio steprs\
+  T: 201 #number of discretizatio steprs\
   schedule: edm
-
 
 posterior_sampling:
   zeta: 0.5 #zeta for the posterior sampling
 
-
-#experiment configuration for different testing modes
-
 unconditional:
   num_samples: 1
   audio_len: 65536
-
-
-#logging configuration
-wandb:
-  use: True
-  log_every: 10
-  run_name: "2nd-order-Heun-unconditional"

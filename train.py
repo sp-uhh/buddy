@@ -3,9 +3,10 @@ import re
 import json
 import hydra
 import torch
-#from utils.torch_utils import distributed as dist
+
 import utils.setup as setup
 from training.trainer import Trainer
+from testing.tester import Tester
 
 def _main(args):
     device=torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -40,9 +41,6 @@ def _main(args):
 
     # Tester
     args.tester.sampling_params.same_as_training = True #Make sure that we use the same HP for sampling as the ones used in training
-    args.tester.wandb.use = False #Will do that in training
-    # tester=hydra.utils.instantiate(args.tester, args, network, diff_params)
-    from testing.tester import Tester
     tester=Tester(args, network, diff_params, test_set=test_loader, device=device, in_training=True)
 
     # Trainer

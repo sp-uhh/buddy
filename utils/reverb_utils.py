@@ -22,28 +22,12 @@ def minimum_phase_version(h):
     minimum_phase_h = minimum_phase_h[: -T_orig]
     return minimum_phase_h
 
-def apply_RIR(y, filter):
-
-    filter=filter.unsqueeze(0).unsqueeze(0)
-    filter=filter.flip(2)
-    B=filter.to(y.device)
-    #B=filter
-    y=y.unsqueeze(1)
-    #weight=torch.nn.Parameter(B)
-
-    y_lpf=torch.nn.functional.conv1d(y,B,padding="same")
-
-    y_lpf=y_lpf.squeeze(1) #some redundancy here, but its ok
-    #y_lpf=y
-    return y_lpf
-
 def fast_apply_RIR(y, filter, rm_delay=False, zero_pad=False):
 
     if rm_delay:
         filter = filter[ torch.argmax(filter): ]
 
     filter = filter.unsqueeze(0).unsqueeze(0)
-    #filter = filter.flip(2)
     B = filter.to(y.device)
     y = y.unsqueeze(1)
     
@@ -52,18 +36,12 @@ def fast_apply_RIR(y, filter, rm_delay=False, zero_pad=False):
     M = filter.size(2)
     
     # Compute the size of the FFT
-    #fft_size = 2**int(2**torch.ceil(torch.log2(torch.tensor(N + M - 1.0))))
     if zero_pad:
         fft_size=torch.tensor(2*N+2*M-1)
     else:
         fft_size=torch.tensor(N+M-1)
-    #find next power of 2
-    # print(fft_size)
-
     fft_size=int(2**torch.ceil(torch.log2(fft_size)))
-    # print(fft_size)
     
-    # print(y.shape, B.shape)
     # Perform FFT on the input signal and filter
     Y = torch.fft.fft(y, fft_size, dim=2)
     H = torch.fft.fft(B, fft_size, dim=2)
@@ -72,7 +50,6 @@ def fast_apply_RIR(y, filter, rm_delay=False, zero_pad=False):
     Y_conv = Y * H
     
     # Perform inverse FFT to get the convolution result
-    #y_conv = torch.fft.fftshift(torch.fft.ifft(Y_conv, fft_size, dim=2), dim=2)
     y_conv = torch.fft.ifft(Y_conv, fft_size, dim=2)
     
     # Take the real part of the result
