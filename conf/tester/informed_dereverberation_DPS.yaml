@@ -1,0 +1,57 @@
+name: "informed_dereverberation_DPS" #same as the file name, try to do that for all testers
+
+tester:
+  _target_: 'testing.tester.Tester'
+
+sampler:
+  _target_: 'testing.EulerHeunSamplerDPS.EulerHeunSamplerDPS'
+
+modes: ["informed_dereverberation"] #modes to test
+
+checkpoint: None
+
+sampling_params:
+  same_as_training: False #if true, the sampling parameters will be the same as the ones used for training (sigma_data, sigma_min, sigma_max and rho)
+  sde_hp:
+    sigma_data: 0.05 #default for maestro
+    sigma_min: 1e-4
+    sigma_max: 5e-1
+    rho: 10
+  Schurn: 10
+  Snoise: 1
+  Stmin: 0
+  Stmax: 10
+  order: 2 #order of the sampler (1 or 2)
+  T: 201 #number of discretizatio steprs
+  schedule: "edm" #"log": log schedule using the parameters in sampling_params
+
+posterior_sampling:
+  zeta: 2.75 #zeta for the posterior sampling
+
+  rec_loss: 
+    name: "l2_comp_stft_summean"
+    weight: 512
+    frequency_weighting: "none"
+    compression_factor: 0.667
+    multiple_compression_factors: False
+
+  normalization_type: "grad_norm"
+  warm_initialization:
+    mode: "reverb_scaled"
+    scaling_factor: 0.05
+  constraint_speech_magnitude:
+    use: False
+
+unconditional:
+  num_samples: 1
+  audio_len: 65536
+
+informed_dereverberation:
+  path_RIRs: ...
+  files: ...
+  operator: "waveform"
+  op_hp:
+    NFFT: 1024
+    win_length: 512
+    hop: 128
+    window: "hann"

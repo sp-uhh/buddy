@@ -1,0 +1,31 @@
+train:
+  _target_: datasets.rirs.HybridRIRTrain
+  path: /data/lemercier/databases/RIRs_organized
+  num_samples: 10_000
+  segment_length: 32000
+  fs: 16000
+  t60_range: [0.4, 1.0]
+  dim_range: [5, 15, 5, 15, 2, 6]
+  min_distance_to_wall: 1.
+  normalize: True
+  align: True
+  proba_real: 0.8
+ 
+  #random seed
+  seed: 0
+
+test:
+  _target_: datasets.rirs.HybridRIRTest
+  path: /data/lemercier/databases/RIRs_organized
+  segment_length: 32000
+  fs: 16000
+  t60_range: [0.4, 1.0]
+  dim_range: [5, 15, 5, 15, 2, 6]
+  min_distance_to_wall: 1.
+  normalize: True
+  align: True
+  num_examples: 16
+  proba_real: 1.0
+ 
+  #random seed
+  seed: 0

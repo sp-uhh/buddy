@@ -1,0 +1,29 @@
+_target_: networks.ncsnpp.NCSNppTime
+stft:
+  n_fft: 510
+  hop_length: 128
+  center: True
+
+nonlinearity: 'swish'
+nf: 128
+ch_mult: [1, 2, 2, 2]
+num_res_blocks: 1
+attn_resolutions: [0,]
+resamp_with_conv: True
+time_conditional: True
+fir: False
+fir_kernel: [1, 3, 3, 1]
+skip_rescale: True
+resblock_type: 'biggan'
+progressive: 'output_skip'
+progressive_input: 'input_skip'
+progressive_combine: 'sum'
+init_scale: 0
+fourier_scale: 16
+image_size: 256
+embedding_type: 'fourier'
+input_channels: 2
+spatial_channels: 1
+dropout: 0
+centered: True
+discriminative: False

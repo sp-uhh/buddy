@@ -1,0 +1,10 @@
+#for test only
+
+test:
+  _target_: datasets.speech_RIR_test_varying_length.SpeechRIRTest
+  csv_file: /data3/databases/VCTK-Reverb-eloi-subset/test_subset.csv
+  path_RIRs: /data3/databases/VCTK-Reverb-eloi-subset/test
+  path_speech: /data3/databases/VCTK-Reverb-eloi-subset/test
+  start_s: 0.5
+  segment_length: 65536
+  fs: 16000

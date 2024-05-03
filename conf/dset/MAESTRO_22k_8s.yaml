@@ -1,0 +1,26 @@
+train:
+  _target_: datasets.maestro.MaestroDataset
+  segment_length: 184184
+  fs: 22050
+  path: "/scratch/shareddata/dldata/maestro/v3.0.0/maestro-v3.0.0"
+  years: [2004,2006,2008,2009,2011, 2013, 2014, 2015, 2017, 2018] # 
+  split: "train"
+  normalize: False
+  #sigma_data: 0.05 #for normalization purposes
+  #random seed
+  seed: 0
+
+test:
+  _target_: datasets.maestro.MaestroDatasetTest
+  segment_length: 184184
+  fs: 22050
+  path: "/scratch/shareddata/dldata/maestro/v3.0.0/maestro-v3.0.0"
+  years: [2004,2006,2008,2009,2011, 2013, 2014, 2015, 2017, 2018] # 
+  split: "test"
+
+  normalize: False
+  #sigma_data: 0.05 #for normalization purposes
+  num_examples: 2
+ 
+  #random seed
+  seed: 0

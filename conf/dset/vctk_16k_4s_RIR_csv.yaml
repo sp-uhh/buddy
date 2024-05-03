@@ -1,0 +1,21 @@
+train:
+  _target_: datasets.vctk.VCTKTrain
+  segment_length: 65536
+  fs: 16000
+  path: /scratch/elec/t412-asp/audio_datasets/speech/VCTK/wav16
+  speakers_discard: ["p280", "p315"]
+  speakers_test: ["p351", "p360", "p361", "p362", "p363", "p364", "p374", "p376"]
+  normalize: False
+  #sigma_data: 0.05 #for normalization purposes
+ 
+  #random seed
+  seed: 0
+
+test:
+  _target_: datasets.speech_RIR_test.SpeechRIRTest
+  csv_file: /scratch/work/molinee2/datasets/test_set_dereverb/12_subset.csv
+  path_RIRs: /scratch/elec/t412-asp/arni
+  path_speech: /scratch/work/molinee2/datasets/test_set_dereverb/clean_testset_wav_16k  
+  start_s: 0.5
+  segment_length: 65536
+  fs: 16000

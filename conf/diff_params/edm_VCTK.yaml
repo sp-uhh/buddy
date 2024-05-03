@@ -1,0 +1,13 @@
+#Elucidated Diffusion Model (Karras et al. 2022)
+_target_: "diff_params.edm.EDM"
+
+defaults: 
+  - shared
+
+# SDE hyperparameters
+type: "ve_karras"
+sde_hp:
+  sigma_data: 0.05 #default for maestro
+  sigma_min: 1e-5
+  sigma_max: 10
+  rho: 10

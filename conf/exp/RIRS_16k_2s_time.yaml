@@ -1,0 +1,57 @@
+#Training configuration file
+exp_name: "RIRS_16k_2s_time" #name of the experiment
+
+model_dir: None #directory where the model will be saved loally
+
+trainer:
+  _target_: "training.trainer.Trainer"
+
+  #main options
+#related to optimization
+optimizer:
+  _target_: "torch.optim.Adam"
+  lr: 1e-4 #            help='Learning rate',
+  betas: [0.9, 0.999]
+  eps: 1e-8 #for numerical stability, we may need to modify it if usinf fp16
+  
+
+lr_rampup_it: 1000 #,  help='Learning rate rampup duration'
+
+#for lr scheduler (not noise schedule!!) TODO (I think)
+scheduler_step_size: 60000
+scheduler_gamma: 0.8
+
+
+# Training related.
+batch_size: 8 #         help='Total batch size'
+#batch_size: 1 #         help='Total batch size'
+
+# Performance-related.
+num_workers: 4  #',       help='DataLoader worker processes', metavar='INT',                 type=click.IntRange(min=1), default=1, show_default=True)
+
+# I/O-related. moved to logging
+seed: 1 # random seed
+
+resume: True
+resume_checkpoint: None
+
+#audio data related
+sample_rate: 16000
+audio_len: 24000
+
+#training
+use_cqt_DC_correction: False #if True, the loss will be corrected for the DC component and the nyquist frequency. This is important because we are discarding the DC component and the nyquist frequency in the cqt
+
+#ema_rate: "0.9999"  # comma-separated list of EMA values
+ema_rate: 0.9999  #unused
+ema_rampup: 10000  #linear rampup to ema_rate   #help='EMA half-life' 
+
+
+#gradient clipping
+use_grad_clip: True
+max_grad_norm: 1
+
+restore : False
+checkpoint_id: None
+
+

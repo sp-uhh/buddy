@@ -1,0 +1,20 @@
+defaults:
+  - dset: vctk_16k_4s
+  - network: ncsnpp
+  - diff_params: edm_VCTK
+  - tester: only_unconditional
+  - exp: VCTK_16k_4s_time
+  - logging: base_logging
+
+model_dir: "experiments/1"
+
+hydra:
+  job:
+    config:
+      # configuration for the ${hydra.job.override_dirname} runtime variable
+      override_dirname:
+        kv_sep: '='
+        item_sep: ','
+        # Remove all paths, as the / in them would mess up things
+        exclude_keys: ['path_experiment',
+          'hydra.job_logging.handles.file.filename']

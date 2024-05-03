@@ -1,0 +1,35 @@
+
+log: True #to log or not to log
+
+log_interval: 1000 #how often to log simple stats
+heavy_log_interval: 10000 #how often to log heavy info (audio, spectrograms, etc)
+
+save_model: True #whether to save the model or not
+save_interval: 10000 #how often to save the model
+
+remove_old_checkpoints: True #whether to remove the old checkpoints or not, useful to save space (I am always at the limit of my quota)
+
+#for logging the loss by sigma plot
+num_sigma_bins: 20
+
+print_model_summary: False #whether to print the model summary or not
+
+profiling: #this is logging some profiling info to wandb, may be useful to see if training is too slow
+  enabled: True #whether to profile or not
+  wait: 5
+  warmup: 10
+  active: 2
+  repeat: 1
+
+log_spectrograms: False #whether to log spectrograms or not. They look cool but they are heavy and will make wandb go slow
+#stft for plotting spectrograms
+stft:
+  win_size: 1024
+  hop_size: 256
+
+#log_feature_stats: False
+#log_feature_stats_interval: 1000000
+
+wandb:
+  entity: "eloimoliner"
+  project: "audiodps"

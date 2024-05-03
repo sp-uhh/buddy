@@ -1,0 +1,16 @@
+#for test only
+
+test:
+  _target_: datasets.vctk.VCTKTest
+  segment_length: -1
+  fs: 16000
+  path: /data/lemercier/databases/VCTK-Reverb/test/clean
+  speakers_discard: []
+  speakers_test: ["p226", "p287"]
+  normalize: False
+  #sigma_data: 0.05 #for normalization purposes
+  num_examples: -1
+  
+  #random seed
+  shuffle: False
+  seed: 0

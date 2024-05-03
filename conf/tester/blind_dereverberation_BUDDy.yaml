@@ -1,0 +1,129 @@
+name: "blind_dereverberation_buddy" #same as the file name, try to do that for all testers
+
+tester:
+  _target_: 'testing.tester.Tester'
+
+sampler:
+  _target_: 'testing.EulerHeunSamplerDPS.EulerHeunSamplerDPS'
+
+modes: ["blind_dereverberation"] #modes to test
+
+checkpoint: None
+
+sampling_params:
+  same_as_training: False #if true, the sampling parameters will be the same as the ones used for training (sigma_data, sigma_min, sigma_max and rho)
+  sde_hp:
+    sigma_data: 0.05 #default for maestro
+    sigma_min: 1e-4
+    sigma_max: 5e-1
+    # sigma_max: 8 #use that if no warm initialization
+    rho: 10
+  Schurn: 50
+  Snoise: 1
+  Stmin: 0
+  Stmax: 10
+  order: 1 #order of the sampler (1 or 2)
+  T:  201 #number of discretizatio steprs
+  schedule: "edm" #"log": log schedule using the parameters in sampling_params
+
+posterior_sampling:
+
+  zeta: 0.5
+
+  rec_loss: 
+    name: "l2_comp_stft_summean"
+    weight: 512
+    frequency_weighting: "none"
+    compression_factor: 0.667
+    multiple_compression_factors: False
+
+  rec_loss_params:
+    name: "l2_comp_stft_summean"
+    weight: 512
+    frequency_weighting: "none"
+    compression_factor: 0.667
+    multiple_compression_factors: False
+    compression_factors: [1,  0.1]
+    weights: [1, 0.1]
+  
+  RIR_noise_regularization:
+    use: True
+    crop_sigma_max: 0.01
+    crop_sigma_min: 5e-4
+    loss:
+      name: "l2_comp_stft_summean"
+      weight: 2560
+      frequency_weighting: "none"
+      compression_factor: 0.667
+      multiple_compression_factors: False
+
+  project_parameters: True
+
+  normalization_type: "grad_norm"
+
+  blind_hp:
+    optimizer: "adam"
+    lr_op: 0.1
+    beta1: 0.9
+    beta2: 0.99
+    noise: 0.1
+    lr_op_phase: 1
+    weight_decay: 0
+    op_updates_per_step: 10
+    grad_clip: 1
+  
+  warm_initialization:
+    mode: "wpe_scaled"
+    scaling_factor: 0.05
+    wpe:
+      delay: 2
+      taps: 50
+      iterations: 5
+
+  constraint_speech_magnitude:
+    use: True
+    speech_scaling: 0.05  #Match the sigma_data of dataset
+
+unconditional:
+  num_samples: 1
+  audio_len: 65536
+
+informed_dereverberation:
+  path_RIRs: ...
+  files: ...
+  operator: "subband_filtering"
+  name_params: ["T60s", "weights"]
+  op_hp:
+    fix_EQ_extremes: True
+    NFFT: 1024
+    win_length: 512
+    hop: 128
+    window: "hann"
+    Nf: 100
+    EQ_freqs: [0,125,250,375,500,625,750,875,1000,1250,1500,1750,2000,2250,2500,2750,3000,3500,4000,4500,5000,5500,6000,6500,7000,7500,8000]
+    init_single_value: True
+    init_params:
+      T60_breakpoints: [0.1]
+      multiexp_weighting: [2]
+    init_phases: "random_coherent"
+    minimum_phase: True
+    fix_direct_path: True
+    num_GL_iter: 1
+    cumulative_decays: False 
+    decay_scale: 1
+    Amin: 0
+    Amax: 40
+    T60min: 0.1
+    T60max: 2
+    clamp_A: True
+    clamp_decay: True
+    strictly_decreasing_decay: False
+    enforce_long_decay_in_second_exponential: True
+    n_iter_PR: 5
+    
+blind_dereverberation:
+  operator: "subband_filtering"
+
+  test_params:
+      T60_breakpoints: [[0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1,0.1]]
+      multiexp_weighting: [[2,2,2,2,2,2,2,2,2]]
