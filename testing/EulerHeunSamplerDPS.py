@@ -95,7 +95,7 @@ class EulerHeunSamplerDPS(EulerHeunSampler):
             if self.RIR_noise_regularization_loss is not None:
                 rir_time = self.operator.get_time_RIR()
                 rir_noise = torch.randn_like(rir_time).to(x_den.device)
-                t_op = min(max(t, self.args.tester.posterior_sampling.RIR_noise_regularization.crop_sigma_max), self.args.tester.posterior_sampling.RIR_noise_regularization.crop_sigma_min)
+                t_op = max(min(t, self.args.tester.posterior_sampling.RIR_noise_regularization.crop_sigma_max), self.args.tester.posterior_sampling.RIR_noise_regularization.crop_sigma_min)
                 rir_noisy = rir_time + t_op * rir_noise
                 reg_loss = self.RIR_noise_regularization_loss(rir_time, rir_noisy.detach()) #detach gradients so that we do not backpropagate through the RIR operator
                 loss += reg_loss
