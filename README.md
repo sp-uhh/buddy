@@ -10,7 +10,7 @@ Install required Python packages with `python -m pip install -r requirements.txt
 
 ## 2 - Checkpoints
 
-You can access our pretrained checkpoint, trained on VCTK anechoic speech, at [the following link](link-to-checkpoint)
+You can access our pretrained checkpoint, trained on VCTK anechoic speech, at [the following link](https://drive.google.com/drive/u/2/folders/1fEvzbiIy77A1i5aiOwPf78OKQjCemOmQ)
 
 ## 3 - Testing
 
