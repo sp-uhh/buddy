@@ -33,6 +33,6 @@ If you used this repo for your own work, do not forget to cite us:
     title={{BUDD}y: Single-channel Blind Unsupervised Dereverberation with Diffusion Models},
     author={Moliner, Eloi and Lemercier, Jean-Marie and Welker, Simon and Gerkmann, Timo and V\"alim\"aki, Vesa},
     year={2024},
-    journal={arXiv xxxx/xxxx}
+    journal={arXiv 2405.04272}
 }
 ```
