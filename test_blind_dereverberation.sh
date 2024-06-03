@@ -15,7 +15,6 @@ HYDRA_FULL_ERROR=1 python test.py --config-name=$conf \
             model_dir=$PATH_EXPERIMENT \
             +gpu=0 \
             dset=vctk_16k_4s_test-benchmark \
-            dset.test._target_=datasets.vctk_jm.VCTKTest \
             dset.test.path=/data3/databases/VCTK-Reverb-eloi-subset/test/clean \
             tester.informed_dereverberation.path_RIRs=/data3/databases/VCTK-Reverb-eloi-subset/test/rir \
             tester.informed_dereverberation.files=[] \
