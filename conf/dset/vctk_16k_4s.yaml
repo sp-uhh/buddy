@@ -12,7 +12,7 @@ train:
   seed: 0
 
 test:
-  _target_: datasets.vctk.VCTKTest
+  _target_: datasets.vctk.VCTKTestPaired
   segment_length: 65536
   fs: 16000
   path: /scratch/elec/t412-asp/audio_datasets/speech/VCTK/wav16

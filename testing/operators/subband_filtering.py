@@ -329,3 +329,23 @@ class BlindSubbandFiltering(SubbandFiltering):
 
         assert (torch.isnan(self.params[0]).any()==False), f"decay is Nan"
         assert (torch.isnan(self.params[1]).any()==False), f"weights is Nan"
+    
+    def cons(self, X, length=None):
+        L=X.shape[-1]
+        X=torch.nn.functional.pad(X, (1,1))
+        h=self.istft(X,length=length)
+        #padding to make it fit
+        h=torch.nn.functional.pad(h, (0,self.hop_length))
+
+        if self.op_hp.minimum_phase:
+            h = reverb_utils.minimum_phase_version(h)
+            #if self.fix_direct_path:
+            #    h[0]=1*(self.win_length/(self.hop_length*2)) #fix the direct path to 1 (hard coded for hann window)
+        if self.fix_direct_path:
+            #if h[0]>0:
+            h[0]=1*(self.win_length/(self.hop_length*2)) #fix the direct path to 1 (hard coded for hann window)
+            #else:
+            #h[0]=-1*(self.win_length/(self.hop_length*2)) #fix the direct path to 1 (hard coded for hann window)
+        X_rec= self.stft(h)
+        X_rec=X_rec[:,1:-1]
+        return X_rec[...,:L]

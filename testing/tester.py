@@ -129,33 +129,13 @@ class Tester():
             print("No samples found in test set")
             return
         
-        RIR_list_files=self.args.tester.informed_dereverberation.files
-        if len(RIR_list_files):
-            RIR_list_files=[os.path.join(self.args.tester.informed_dereverberation.path_RIRs, RIR_list_files[i]) for i in range(len(RIR_list_files))]
-        else:
-            RIR_list_files= sorted(glob(os.path.join(self.args.tester.informed_dereverberation.path_RIRs, "*.wav")))
-            if not len(RIR_list_files):
-                RIR_list_files= sorted(glob(os.path.join(self.args.tester.informed_dereverberation.path_RIRs, "**", "*.wav"), recursive=True))
-        
-        for i, (original,  filename) in enumerate(tqdm(self.test_set)):
-
-            if i>=len(RIR_list_files):
-                break
+        for i, (original, rir,  filename) in enumerate(tqdm(self.test_set)):
 
             seg = torch.from_numpy(original).float().to(self.device)
             seg = self.args.tester.posterior_sampling.warm_initialization.scaling_factor * seg / seg.std() #Normalize the input to match sigma_data of dataset
 
             #read and prepare the RIR
-            RIR_file=RIR_list_files[i]
-            RIR, fs_RIR=sf.read(RIR_file)
-            RIR=torch.Tensor(RIR).to(self.device)
-            if fs_RIR != self.args.exp.sample_rate:
-                RIR=torchaudio.functional.resample(RIR, fs_RIR, self.args.exp.sample_rate)
-
-            direct_path=torch.argmax(torch.abs(RIR))
-            RIR=RIR[direct_path:]
-
-            RIR = RIR / RIR.abs().max() # Direct path (i.e. first peak of the RIR, with maximum energy) has the same energy as the original dry file
+            RIR=torch.Tensor(rir).to(self.device)
 
             with torch.no_grad():
 
