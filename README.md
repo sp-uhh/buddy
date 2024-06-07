@@ -1,8 +1,8 @@
 # BUDDy: Single-channel Blind Unsupervised Dereverberation with Diffusion Models #
 
-This is the official code for our paper [BUDDy: Single-channel Blind Unsupervised Dereverberation with Diffusion Models](arxiv/xx-xxxx.html)
+This is the official code for our paper [BUDDy: Single-channel Blind Unsupervised Dereverberation with Diffusion Models](https://arxiv.org/abs/2405.04272)
 
-We invite you to check our [companion website](arxiv/inf-sp-buddy) for listening samples and insights into the paper
+We invite you to check our [companion website](https://www.inf.uni-hamburg.de/en/inst/ab/sp/publications/iwaenc2024-buddy.html) for listening samples and insights into the paper
 
 ## 1 - Requirements
 
