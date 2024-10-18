@@ -12,12 +12,15 @@ Install required Python packages with `python -m pip install -r requirements.txt
 
 You can access our pretrained checkpoint, trained on VCTK anechoic speech, at [the following link](https://drive.google.com/drive/u/2/folders/1fEvzbiIy77A1i5aiOwPf78OKQjCemOmQ)
 
+The pretrained checkpoint trained on singing voice is available [here](http://research.spa.aalto.fi/publications/papers/dafx-babe2/checkpoints/singing_voice_pretrain_44kHz_6s-325kits.pt)
+
 ## 3 - Testing
 
 You can launch blind dereverberation with `bash test_blind_dereverberation.sh`.
 You can launch informed dereverberation with `bash test_informed_dereverberation.sh`.
 In both cases, do not forget to add the path to the pretrained model checkpoint in the bash file (i.e. replace `ckpt=<pretrained-vctk-checkpoint.pt>` with your path).
 The directory tree in `audio_examples/` contains an example test set to reproduce the results.  
+
 
 ## 4 - Training
 

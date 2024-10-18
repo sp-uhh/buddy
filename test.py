@@ -99,7 +99,10 @@ def _main(args):
 
 @hydra.main(config_path="conf", config_name="conf", version_base=str(hydra.__version__))
 def main(args):
-    torch.cuda.set_device(args.gpu)
+    try:
+        torch.cuda.set_device(args.gpu)
+    except:
+        print("no gpu available")
     _main(args)
 
 if __name__ == "__main__":

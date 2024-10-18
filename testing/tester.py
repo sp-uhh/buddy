@@ -150,10 +150,73 @@ class Tester():
                     with torch.no_grad():
                         operator_blind.update_H(use_noise=True)
 
+            if "CQT" in self.args.network._target_:
+                from utils.cqt_nsgt_pytorch import CQT_nsgt
+                self.sampler.model.CQTransform=CQT_nsgt(self.sampler.model.num_octs, self.sampler.model.bins_per_oct, mode="oct",window=("kaiser",1),fs=self.args.exp.sample_rate, audio_len=y.shape[-1], dtype=torch.float32, device=self.device)
+
             pred = self.sampler.predict_conditional(y, operator_blind if blind else operator_ref, shape=(1,seg.shape[-1]), blind=blind)
 
             path_original=utils_logging.write_audio_file(seg, self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"original"])
             path_degraded=utils_logging.write_audio_file(y, self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"degraded"])
+            path_reconstructed=utils_logging.write_audio_file(pred, self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"reconstructed"])
+            
+            utils_logging.write_audio_file(RIR.detach().cpu(), self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"true_rir"])
+            if blind:
+                utils_logging.write_audio_file(self.sampler.operator.get_time_RIR().detach().cpu(), self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"estimated_rir"])
+            
+            print(path_reconstructed)
+
+    def test_dereverberation_SV(self, mode, blind=False):
+
+        if self.test_set is None:
+            print("No test set specified")
+            return
+        if len(self.test_set) == 0:
+            print("No samples found in test set")
+            return
+        
+        for i, (original, reverberant, rir,  filename) in enumerate(tqdm(self.test_set)):
+
+            seg = torch.from_numpy(original).float().to(self.device)
+            seg = self.args.tester.posterior_sampling.warm_initialization.scaling_factor * seg / seg.std() #Normalize the input to match sigma_data of dataset
+
+            #read and prepare the RIR
+            RIR=torch.Tensor(rir).to(self.device)
+
+            with torch.no_grad():
+
+                # Forward pass with true RIR
+                #operator_ref = RIROperator(self.args.tester.informed_dereverberation.op_hp, time_kernel_size=RIR.shape[-1], sample_rate=self.args.exp.sample_rate)
+                #operator_ref.update_params(RIR)
+                #y = operator_ref.degradation(seg.unsqueeze(0))
+
+                if blind: # Initialize operator
+                    assert self.args.tester.blind_dereverberation.operator == "subband_filtering"
+                    operator_blind = BlindSubbandFiltering(self.args.tester.informed_dereverberation.op_hp, sample_rate=self.args.exp.sample_rate)
+                    with torch.no_grad():
+                        operator_blind.update_H(use_noise=True)
+
+                y=torch.from_numpy(reverberant).float().to(self.device)
+                std_y=y.std()
+                y/=std_y
+                init_shape=y.shape
+
+                if init_shape[-1]%262144 != 0:
+                    pad_amount = 262144 - (init_shape[-1] % 262144)
+                    # Pad the tensor
+                    yc = torch.nn.functional.pad(y, (0, pad_amount), 'constant', 0)
+            
+
+            if "CQT" in self.args.network._target_:
+                from utils.cqt_nsgt_pytorch import CQT_nsgt
+                self.sampler.model.CQTransform=CQT_nsgt(self.sampler.model.num_octs, self.sampler.model.bins_per_oct, mode="oct",window=("kaiser",1),fs=self.args.exp.sample_rate, audio_len=yc.shape[-1], dtype=torch.float32, device=self.device)
+
+            yc=yc.unsqueeze(0)
+
+            pred = self.sampler.predict_conditional(yc, operator_blind , shape=(1,yc.shape[-1]), blind=blind)
+
+            path_original=utils_logging.write_audio_file(seg, self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"original"])
+            path_degraded=utils_logging.write_audio_file(y*std_y, self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"degraded"])
             path_reconstructed=utils_logging.write_audio_file(pred, self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"reconstructed"])
             
             utils_logging.write_audio_file(RIR.detach().cpu(), self.args.exp.sample_rate, os.path.basename(filename)[: -4], path=self.paths[mode+"true_rir"])
@@ -197,7 +260,7 @@ class Tester():
                     if not os.path.exists(self.paths[mode+"true_rir"]):
                         os.makedirs(self.paths[mode+"true_rir"])
 
-                    if mode == "blind_dereverberation":
+                    if "blind_dereverberation" in mode:
                         self.paths[mode+"estimated_rir"]=os.path.join(self.paths[mode],"estimated_rir")
                         if not os.path.exists(self.paths[mode+"estimated_rir"]):
                             os.makedirs(self.paths[mode+"estimated_rir"])
@@ -231,6 +294,14 @@ class Tester():
                     self.prepare_directories(m)
                     self.save_experiment_args(m)
                 self.test_dereverberation(m, blind=True)
+
+            elif m == "blind_dereverberation_SV":
+                print("testing blind dereverberation")
+                if not self.in_training:
+                    self.prepare_directories(m)
+                    self.save_experiment_args(m)
+                self.test_dereverberation_SV(m, blind=True)
+
 
             else:
                 print("Warning: unknown mode: ", m)

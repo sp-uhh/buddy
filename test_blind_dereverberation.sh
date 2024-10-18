@@ -4,7 +4,7 @@ export HYDRA_FULL_ERROR=1
 export CUDA_LAUNCH_BLOCKING=1
 
 #ckpt=<pretrained-vctk-checkpoint.pt>
-ckpt=/home/molinee2/projects/audiodps/experiments/VCTK_16k/VCTK_16k_4s_time-190000.pt
+ckpt=/home/molinee2/projects/audiodps/experiments/singing_voice/44k_8s-325000.pt
 
 tester=blind_dereverberation_BUDDy
 conf=conf_VCTK.yaml
