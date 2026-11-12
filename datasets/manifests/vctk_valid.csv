@@ -1,0 +1,909 @@
+id,speaker,speech_file,speech_start,speech_end,rir_file,channel,gain,t60
+p271_001,p271,p271_001,0,-1,/MeshRIR/S1-M3969_npy/ir_819.npy,0,0.878,0.596
+p271_002,p271,p271_002,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_2_numComb_168_mic_5_sweep_1.wav,0,1.845,2.496
+p271_003,p271,p271_003,0,-1,/MeshRIR/S1-M3969_npy/ir_3362.npy,0,0.948,0.555
+p271_004,p271,p271_004,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-09_S_PA-15_E_Ch_14.wav,0,1.392,0.314
+p271_005,p271,p271_005,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_28_numComb_11_mic_4_sweep_1.wav,0,1.801,2.886
+p271_006,p271,p271_006,0,-1,/MYRIAD/AIL/SL1/P1/CMA20_90_RIR.wav,0,1.677,0.428
+p271_007,p271,p271_007,0,-1,/MeshRIR/S1-M3969_npy/ir_2848.npy,0,1.003,0.546
+p271_008,p271,p271_008,0,-1,/MeshRIR/S1-M3969_npy/ir_2697.npy,0,1.053,0.531
+p271_009,p271,p271_009,0,-1,/MeshRIR/S1-M3969_npy/ir_3186.npy,0,1.167,0.390
+p271_010,p271,p271_010,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_24_numComb_2383_mic_3_sweep_4.wav,0,1.244,0.507
+p271_011,p271,p271_011,0,-1,/MeshRIR/S1-M3969_npy/ir_1749.npy,0,0.949,0.463
+p271_012,p271,p271_012,0,-1,/MeshRIR/S1-M3969_npy/ir_2918.npy,0,1.101,0.297
+p271_013,p271,p271_013,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_9_numComb_868_mic_4_sweep_3.wav,0,1.769,1.017
+p271_014,p271,p271_014,0,-1,/MeshRIR/S1-M3969_npy/ir_1189.npy,0,0.911,0.573
+p271_015,p271,p271_015,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_47_numComb_4670_mic_2_sweep_1.wav,0,0.616,0.660
+p271_016,p271,p271_016,0,-1,/MeshRIR/S1-M3969_npy/ir_950.npy,0,1.049,0.514
+p271_017,p271,p271_017,0,-1,/MeshRIR/S1-M3969_npy/ir_3637.npy,0,1.028,0.478
+p271_018,p271,p271_018,0,-1,/MeshRIR/S1-M3969_npy/ir_2526.npy,0,1.079,0.428
+p271_019,p271,p271_019,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-12_S_PA-11_E_Ch_1.wav,0,2.505,0.278
+p271_020,p271,p271_020,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_12_numComb_1159_mic_2_sweep_5.wav,0,1.321,0.407
+p271_021,p271,p271_021,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3348_mic_3_sweep_2.wav,0,1.095,0.561
+p271_022,p271,p271_022,0,-1,/MeshRIR/S32-M441_npy/ir_134.npy,20,0.808,0.564
+p271_024,p271,p271_024,0,-1,/MeshRIR/S1-M3969_npy/ir_1794.npy,0,1.054,0.333
+p271_025,p271,p271_025,0,-1,/MeshRIR/S1-M3969_npy/ir_2769.npy,0,0.926,0.342
+p271_026,p271,p271_026,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3407_mic_5_sweep_1.wav,0,1.444,0.564
+p271_027,p271,p271_027,0,-1,/MeshRIR/S1-M3969_npy/ir_3586.npy,0,1.035,0.443
+p271_028,p271,p271_028,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3362_mic_4_sweep_1.wav,0,1.647,0.644
+p271_029,p271,p271_029,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_47_numComb_4660_mic_1_sweep_3.wav,0,0.785,0.678
+p271_030,p271,p271_030,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4054_mic_1_sweep_3.wav,0,0.718,0.574
+p271_031,p271,p271_031,0,-1,/MeshRIR/S1-M3969_npy/ir_2944.npy,0,0.995,0.543
+p271_032,p271,p271_032,0,-1,/MeshRIR/S1-M3969_npy/ir_1364.npy,0,1.029,0.417
+p271_033,p271,p271_033,0,-1,/BRUDEX/rir/rev_medium/RIR_medium_eMicRun_2_DOA_90deg.mat,17,0.775,0.348
+p271_034,p271,p271_034,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4132_mic_1_sweep_4.wav,0,0.788,0.585
+p271_035,p271,p271_035,0,-1,/MYRIAD/AIL/SU12/P1/XM1_RIR.wav,0,3.947,0.362
+p271_036,p271,p271_036,0,-1,/MeshRIR/S1-M3969_npy/ir_3178.npy,0,0.877,0.506
+p271_037,p271,p271_037,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_53_numComb_5284_mic_4_sweep_3.wav,0,1.114,0.933
+p271_038,p271,p271_038,0,-1,/MeshRIR/S1-M3969_npy/ir_2769.npy,0,1.074,0.342
+p271_039,p271,p271_039,0,-1,/MeshRIR/S1-M3969_npy/ir_1380.npy,0,0.984,0.522
+p271_040,p271,p271_040,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-03_S_PA-15_W_Ch_32.wav,0,2.588,0.252
+p271_041,p271,p271_041,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_52_numComb_5148_mic_1_sweep_5.wav,0,0.492,0.911
+p271_042,p271,p271_042,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS1/AS1/Eigenmike Capsules/MV4_AS1_Eigen_R_PA-11_S_PA-19_W_Ch_16.wav,0,2.848,0.224
+p271_043,p271,p271_043,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-09_S_PA-23_W_Ch_24.wav,0,2.429,0.267
+p271_044,p271,p271_044,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_16_numComb_1546_mic_1_sweep_1.wav,0,1.394,0.420
+p271_045,p271,p271_045,0,-1,/MeshRIR/S1-M3969_npy/ir_3890.npy,0,0.836,0.320
+p271_046,p271,p271_046,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2655_mic_5_sweep_5.wav,0,1.451,0.535
+p271_047,p271,p271_047,0,-1,/MeshRIR/S1-M3969_npy/ir_24.npy,0,1.276,0.544
+p271_048,p271,p271_048,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_50_numComb_4982_mic_2_sweep_1.wav,0,0.635,0.784
+p271_049,p271,p271_049,0,-1,/ACE-Challenge/EM32/Meeting_Room_2/2/EM32_611_2_RIR.wav,7,1.289,0.436
+p271_050,p271,p271_050,0,-1,/MeshRIR/S1-M3969_npy/ir_2642.npy,0,1.007,0.406
+p271_051,p271,p271_051,0,-1,/MeshRIR/S1-M3969_npy/ir_3378.npy,0,0.917,0.399
+p271_052,p271,p271_052,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_32_numComb_3227_mic_5_sweep_3.wav,0,1.320,0.571
+p271_053,p271,p271_053,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_33_numComb_3288_mic_3_sweep_5.wav,0,0.970,0.553
+p271_054,p271,p271_054,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_21_numComb_2050_mic_5_sweep_2.wav,0,1.712,0.484
+p271_055,p271,p271_055,0,-1,/MYRIAD/AIL/SU4/P1/CMA20_135_RIR.wav,0,1.696,0.419
+p271_056,p271,p271_056,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_4_numComb_428_mic_5_sweep_2.wav,0,1.703,0.468
+p271_057,p271,p271_057,0,-1,/MeshRIR/S1-M3969_npy/ir_3190.npy,0,1.166,0.571
+p271_058,p271,p271_058,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_28_numComb_11_mic_4_sweep_1.wav,0,2.176,2.886
+p271_059,p271,p271_059,0,-1,/MeshRIR/S32-M441_npy/ir_136.npy,31,1.061,0.570
+p271_060,p271,p271_060,0,-1,/MeshRIR/S1-M3969_npy/ir_1417.npy,0,1.134,0.490
+p271_061,p271,p271_061,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-15_S_PA-23_N_Ch_2.wav,0,1.676,0.264
+p271_062,p271,p271_062,0,-1,/MeshRIR/S1-M3969_npy/ir_708.npy,0,0.845,0.387
+p271_063,p271,p271_063,0,-1,/MYRIAD/AIL/SL3/P2/CMA20_-90_RIR.wav,0,1.195,0.426
+p271_064,p271,p271_064,0,-1,/MYRIAD/AIL/ST1/P2/CMA20_0_RIR.wav,0,2.863,0.403
+p271_065,p271,p271_065,0,-1,/MYRIAD/AIL/SL2/P1/BTELB_RIR.wav,0,4.153,0.347
+p271_066,p271,p271_066,0,-1,/MeshRIR/S1-M3969_npy/ir_572.npy,0,0.950,0.534
+p271_067,p271,p271_067,0,-1,/MeshRIR/S1-M3969_npy/ir_3186.npy,0,0.981,0.390
+p271_068,p271,p271_068,0,-1,/MeshRIR/S1-M3969_npy/ir_710.npy,0,0.942,0.503
+p271_069,p271,p271_069,0,-1,/MeshRIR/S1-M3969_npy/ir_1759.npy,0,1.175,0.520
+p271_070,p271,p271_070,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_3_numComb_254_mic_4_sweep_2.wav,0,1.613,0.892
+p271_071,p271,p271_071,0,-1,/BRUDEX/rir/rev_medium/RIR_medium_eMicRun_2_DOA_90deg.mat,1,1.814,0.334
+p271_072,p271,p271_072,0,-1,/MeshRIR/S1-M3969_npy/ir_1364.npy,0,1.088,0.417
+p271_073,p271,p271_073,0,-1,/MeshRIR/S1-M3969_npy/ir_3378.npy,0,0.935,0.399
+p271_074,p271,p271_074,0,-1,/MYRIAD/AIL/SU12/P1/BTERF_RIR.wav,0,9.220,0.313
+p271_075,p271,p271_075,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_2_numComb_217_mic_1_sweep_5.wav,0,1.224,0.375
+p271_076,p271,p271_076,0,-1,/MeshRIR/S1-M3969_npy/ir_162.npy,0,1.028,0.395
+p271_077,p271,p271_077,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_52_numComb_5218_mic_2_sweep_4.wav,0,0.587,0.815
+p271_078,p271,p271_078,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3436_mic_3_sweep_4.wav,0,0.756,0.590
+p271_079,p271,p271_079,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4124_mic_2_sweep_3.wav,0,0.886,0.579
+p271_080,p271,p271_080,0,-1,/MeshRIR/S1-M3969_npy/ir_824.npy,0,0.854,0.370
+p271_081,p271,p271_081,0,-1,/BRUDEX/rir/rev_medium/RIR_medium_eMicRun_1_DOA_150deg.mat,14,3.717,0.348
+p271_082,p271,p271_082,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_52_numComb_5210_mic_5_sweep_3.wav,0,0.935,0.802
+p271_083,p271,p271_083,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_14_numComb_1417_mic_3_sweep_5.wav,0,1.543,0.556
+p271_084,p271,p271_084,0,-1,/MeshRIR/S1-M3969_npy/ir_1742.npy,0,1.041,0.564
+p271_085,p271,p271_085,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_22_numComb_2238_mic_4_sweep_2.wav,0,1.838,0.569
+p271_086,p271,p271_086,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_31_numComb_3112_mic_1_sweep_3.wav,0,0.905,0.498
+p271_087,p271,p271_087,0,-1,/MeshRIR/S1-M3969_npy/ir_3207.npy,0,1.023,0.541
+p271_088,p271,p271_088,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_31_numComb_3112_mic_1_sweep_3.wav,0,0.834,0.498
+p271_089,p271,p271_089,0,-1,/MYRIAD/AIL/SU8/P2/XM5_RIR.wav,0,1.317,0.421
+p271_090,p271,p271_090,0,-1,/MeshRIR/S1-M3969_npy/ir_2317.npy,0,0.938,0.522
+p271_091,p271,p271_091,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_1_numComb_105_mic_3_sweep_2.wav,0,1.035,2.462
+p271_092,p271,p271_092,0,-1,/MeshRIR/S32-M441_npy/ir_23.npy,19,1.192,0.550
+p271_093,p271,p271_093,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_10_numComb_949_mic_4_sweep_5.wav,0,1.737,0.465
+p271_094,p271,p271_094,0,-1,/MeshRIR/S1-M3969_npy/ir_970.npy,0,1.032,0.476
+p271_095,p271,p271_095,0,-1,/MeshRIR/S1-M3969_npy/ir_2769.npy,0,1.027,0.342
+p271_096,p271,p271_096,0,-1,/MeshRIR/S1-M3969_npy/ir_3485.npy,0,0.799,0.523
+p271_097,p271,p271_097,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_52_numComb_5218_mic_2_sweep_4.wav,0,0.552,0.815
+p271_098,p271,p271_098,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4171_mic_5_sweep_1.wav,0,1.374,0.646
+p271_099,p271,p271_099,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_32_numComb_3164_mic_4_sweep_1.wav,0,1.412,0.557
+p271_100,p271,p271_100,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_4_numComb_344_mic_2_sweep_1.wav,0,1.515,0.365
+p271_101,p271,p271_101,0,-1,/MeshRIR/S1-M3969_npy/ir_2646.npy,0,1.016,0.554
+p271_102,p271,p271_102,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-18_S_PA-23_N_Ch_10.wav,0,2.356,0.224
+p271_103,p271,p271_103,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Reference Lav/MV4_AS2_Ref_Lav_R_PA-04_S_PA-19_N.wav,0,1.814,0.250
+p271_104,p271,p271_104,0,-1,/MeshRIR/S1-M3969_npy/ir_729.npy,0,0.893,0.440
+p271_105,p271,p271_105,0,-1,/MeshRIR/S1-M3969_npy/ir_2642.npy,0,1.036,0.406
+p271_106,p271,p271_106,0,-1,/MeshRIR/S1-M3969_npy/ir_1821.npy,0,1.004,0.527
+p271_107,p271,p271_107,0,-1,/MYRIAD/AIL/SU11/P1/CMA20_-135_RIR.wav,0,1.507,0.426
+p271_108,p271,p271_108,0,-1,/MYRIAD/AIL/SU12/P1/BTERF_RIR.wav,0,8.084,0.313
+p271_109,p271,p271_109,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_22_numComb_2238_mic_3_sweep_1.wav,0,0.987,0.592
+p271_110,p271,p271_110,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-10_S_PA-09_W_Ch_5.wav,0,1.083,0.342
+p271_111,p271,p271_111,0,-1,/MeshRIR/S1-M3969_npy/ir_3872.npy,0,1.088,0.524
+p271_112,p271,p271_112,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_8_numComb_761_mic_5_sweep_5.wav,0,2.132,0.468
+p271_113,p271,p271_113,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-04_S_PA-09_N_Ch_4.wav,0,1.391,0.280
+p271_114,p271,p271_114,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4154_mic_5_sweep_1.wav,0,1.267,0.679
+p271_115,p271,p271_115,0,-1,/MeshRIR/S1-M3969_npy/ir_3654.npy,0,1.062,0.557
+p271_116,p271,p271_116,0,-1,/MeshRIR/S1-M3969_npy/ir_551.npy,0,1.060,0.431
+p271_117,p271,p271_117,0,-1,/MeshRIR/S32-M441_npy/ir_126.npy,29,0.816,0.678
+p271_118,p271,p271_118,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_2_numComb_168_mic_5_sweep_1.wav,0,2.284,2.496
+p271_119,p271,p271_119,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_54_numComb_32_mic_2_sweep_3.wav,0,0.485,0.864
+p271_120,p271,p271_120,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4099_mic_2_sweep_4.wav,0,0.708,0.583
+p271_121,p271,p271_121,0,-1,/MeshRIR/S1-M3969_npy/ir_303.npy,0,1.056,0.457
+p271_122,p271,p271_122,0,-1,/BRUDEX/rir/rev_low/RIR_low_eMicRun_1_DOA_30deg.mat,4,5.237,0.166
+p271_123,p271,p271_123,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_8_numComb_4_mic_4_sweep_3.wav,0,2.395,2.870
+p271_124,p271,p271_124,0,-1,/MeshRIR/S1-M3969_npy/ir_3768.npy,0,1.228,0.459
+p271_125,p271,p271_125,0,-1,/MYRIAD/AIL/SU8/P1/CMA10_-90_RIR.wav,0,2.635,0.370
+p271_126,p271,p271_126,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_2_numComb_217_mic_1_sweep_5.wav,0,1.222,0.375
+p271_127,p271,p271_127,0,-1,/MYRIAD/AIL/SU11/P1/CMA20_-135_RIR.wav,0,1.303,0.426
+p271_128,p271,p271_128,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_44_numComb_4419_mic_4_sweep_5.wav,0,1.457,0.672
+p271_129,p271,p271_129,0,-1,/MeshRIR/S1-M3969_npy/ir_680.npy,0,0.934,0.458
+p271_130,p271,p271_130,0,-1,/MeshRIR/S1-M3969_npy/ir_3768.npy,0,1.223,0.459
+p271_131,p271,p271_131,0,-1,/MYRIAD/AIL/SL2/P1/DHL_RIR.wav,0,1.672,0.387
+p271_132,p271,p271_132,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_53_numComb_5284_mic_4_sweep_3.wav,0,1.013,0.933
+p271_133,p271,p271_133,0,-1,/MeshRIR/S1-M3969_npy/ir_2167.npy,0,0.798,0.556
+p271_134,p271,p271_134,0,-1,/MeshRIR/S1-M3969_npy/ir_189.npy,0,1.272,0.382
+p271_135,p271,p271_135,0,-1,/MeshRIR/S1-M3969_npy/ir_2958.npy,0,0.944,0.312
+p271_136,p271,p271_136,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_21_numComb_2050_mic_5_sweep_2.wav,0,1.953,0.484
+p271_137,p271,p271_137,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_53_numComb_5294_mic_2_sweep_5.wav,0,0.466,0.845
+p271_138,p271,p271_138,0,-1,/MeshRIR/S1-M3969_npy/ir_2526.npy,0,1.115,0.428
+p271_139,p271,p271_139,0,-1,/MeshRIR/S1-M3969_npy/ir_403.npy,0,1.309,0.611
+p271_140,p271,p271_140,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_24_numComb_2350_mic_1_sweep_4.wav,0,1.044,0.452
+p271_141,p271,p271_141,0,-1,/MeshRIR/S1-M3969_npy/ir_2167.npy,0,0.820,0.556
+p271_142,p271,p271_142,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_11_numComb_1097_mic_3_sweep_3.wav,0,1.077,0.399
+p271_143,p271,p271_143,0,-1,/MeshRIR/S1-M3969_npy/ir_3216.npy,0,1.089,0.424
+p271_144,p271,p271_144,0,-1,/MeshRIR/S1-M3969_npy/ir_189.npy,0,1.228,0.382
+p271_145,p271,p271_145,0,-1,/MeshRIR/S1-M3969_npy/ir_3768.npy,0,1.091,0.459
+p271_146,p271,p271_146,0,-1,/MeshRIR/S1-M3969_npy/ir_3872.npy,0,0.975,0.524
+p271_147,p271,p271_147,0,-1,/MYRIAD/AIL/ST4/P2/BTELF_RIR.wav,0,8.400,0.353
+p271_148,p271,p271_148,0,-1,/MYRIAD/AIL/SU8/P1/CMA20_0_RIR.wav,0,2.194,0.395
+p271_149,p271,p271_149,0,-1,/MIT_RIRs/h002_Bedroom_62txts.wav,0,0.899,0.340
+p271_150,p271,p271_150,0,-1,/MeshRIR/S1-M3969_npy/ir_1692.npy,0,0.918,0.472
+p271_151,p271,p271_151,0,-1,/MeshRIR/S1-M3969_npy/ir_3186.npy,0,1.085,0.390
+p271_152,p271,p271_152,0,-1,/MeshRIR/S1-M3969_npy/ir_2727.npy,0,1.007,0.443
+p271_153,p271,p271_153,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_21_numComb_2044_mic_2_sweep_2.wav,0,1.200,0.446
+p271_154,p271,p271_154,0,-1,/MeshRIR/S1-M3969_npy/ir_24.npy,0,1.336,0.544
+p271_155,p271,p271_155,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_54_numComb_37_mic_1_sweep_3.wav,0,0.571,0.840
+p271_156,p271,p271_156,0,-1,/MeshRIR/S1-M3969_npy/ir_1339.npy,0,1.369,0.579
+p271_157,p271,p271_157,0,-1,/MYRIAD/AIL/SU8/P2/XM5_RIR.wav,0,1.328,0.421
+p271_158,p271,p271_158,0,-1,/MeshRIR/S1-M3969_npy/ir_1138.npy,0,0.906,0.523
+p271_159,p271,p271_159,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_5_numComb_456_mic_4_sweep_1.wav,0,1.632,1.415
+p271_160,p271,p271_160,0,-1,/MYRIAD/AIL/SU5/P2/XM1_RIR.wav,0,3.036,0.365
+p271_161,p271,p271_161,0,-1,/MeshRIR/S1-M3969_npy/ir_815.npy,0,1.004,0.451
+p271_162,p271,p271_162,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_43_numComb_4285_mic_1_sweep_2.wav,0,0.729,0.595
+p271_163,p271,p271_163,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS1/AS1/Eigenmike Capsules/MV5_AS1_Eigen_R_PA-3A_S_PA-3B_S_Ch_4.wav,0,0.848,0.294
+p271_164,p271,p271_164,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Reference Lav/MV4_AS2_Ref_Lav_R_PA-09_S_PA-03_W.wav,0,2.952,0.231
+p271_165,p271,p271_165,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_49_numComb_4843_mic_2_sweep_3.wav,0,0.661,0.673
+p271_166,p271,p271_166,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-12_S_PA-11_E_Ch_1.wav,0,2.454,0.278
+p271_167,p271,p271_167,0,-1,/MeshRIR/S32-M441_npy/ir_98.npy,31,0.627,0.688
+p271_168,p271,p271_168,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_3_numComb_254_mic_4_sweep_2.wav,0,1.794,0.892
+p271_169,p271,p271_169,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_53_numComb_5294_mic_2_sweep_5.wav,0,0.443,0.845
+p271_170,p271,p271_170,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_8_numComb_832_mic_1_sweep_1.wav,0,1.461,0.375
+p271_171,p271,p271_171,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2700_mic_5_sweep_4.wav,0,1.304,0.464
+p271_172,p271,p271_172,0,-1,/MeshRIR/S1-M3969_npy/ir_815.npy,0,0.982,0.451
+p271_173,p271,p271_173,0,-1,/MYRIAD/AIL/SU10/P1/XM2_RIR.wav,0,2.711,0.365
+p271_174,p271,p271_174,0,-1,/MeshRIR/S1-M3969_npy/ir_511.npy,0,1.177,0.491
+p271_175,p271,p271_175,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS1/AS1/Eigenmike Capsules/MV5_AS1_Eigen_R_PA-3A_S_PA-3B_S_Ch_4.wav,0,0.959,0.294
+p271_176,p271,p271_176,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_9_numComb_908_mic_1_sweep_1.wav,0,1.290,0.395
+p271_177,p271,p271_177,0,-1,/MeshRIR/S1-M3969_npy/ir_1742.npy,0,1.067,0.564
+p271_178,p271,p271_178,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_38_numComb_3826_mic_2_sweep_4.wav,0,0.660,0.560
+p271_179,p271,p271_179,0,-1,/MeshRIR/S1-M3969_npy/ir_3517.npy,0,1.136,0.597
+p271_180,p271,p271_180,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_20_numComb_1947_mic_1_sweep_4.wav,0,1.246,0.426
+p271_181,p271,p271_181,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4171_mic_5_sweep_1.wav,0,1.292,0.646
+p271_182,p271,p271_182,0,-1,/MYRIAD/AIL/SL7/P1/DHL_RIR.wav,0,1.652,0.379
+p271_183,p271,p271_183,0,-1,/MeshRIR/S1-M3969_npy/ir_162.npy,0,1.021,0.395
+p271_184,p271,p271_184,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_37_numComb_3707_mic_2_sweep_5.wav,0,0.935,0.540
+p271_185,p271,p271_185,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_29_numComb_2926_mic_1_sweep_3.wav,0,1.147,0.483
+p271_186,p271,p271_186,0,-1,/MeshRIR/S1-M3969_npy/ir_2450.npy,0,1.046,0.587
+p271_187,p271,p271_187,0,-1,/MeshRIR/S1-M3969_npy/ir_870.npy,0,0.883,0.385
+p271_188,p271,p271_188,0,-1,/MeshRIR/S1-M3969_npy/ir_143.npy,0,1.183,0.486
+p271_189,p271,p271_189,0,-1,/MYRIAD/AIL/ST4/P2/BTELF_RIR.wav,0,8.674,0.353
+p271_190,p271,p271_190,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-11_S_PA-11_W_Ch_18.wav,0,2.000,0.298
+p271_191,p271,p271_191,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-09_S_PA-12_W_Ch_5.wav,0,1.225,0.311
+p271_192,p271,p271_192,0,-1,/MeshRIR/S1-M3969_npy/ir_1453.npy,0,0.923,0.329
+p271_193,p271,p271_193,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3436_mic_3_sweep_4.wav,0,0.805,0.590
+p271_194,p271,p271_194,0,-1,/MeshRIR/S1-M3969_npy/ir_3439.npy,0,0.834,0.528
+p271_195,p271,p271_195,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3388_mic_1_sweep_3.wav,0,1.325,0.518
+p271_196,p271,p271_196,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_33_numComb_3267_mic_3_sweep_3.wav,0,1.075,0.595
+p271_197,p271,p271_197,0,-1,/MeshRIR/S1-M3969_npy/ir_319.npy,0,0.989,0.315
+p271_198,p271,p271_198,0,-1,/MYRIAD/AIL/SL2/P1/DHL_RIR.wav,0,1.599,0.387
+p271_199,p271,p271_199,0,-1,/Palimpsest/06_Commissioners_House/DPA4061-Stereo-48K-BURST/06a_CHouse-Cellar_DPA4061-Stereo-48K-BURST.wav,0,0.073,0.282
+p271_200,p271,p271_200,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_11_numComb_1126_mic_3_sweep_5.wav,0,1.314,0.520
+p271_201,p271,p271_201,0,-1,/MeshRIR/S1-M3969_npy/ir_3061.npy,0,0.890,0.544
+p271_202,p271,p271_202,0,-1,/MeshRIR/S1-M3969_npy/ir_3476.npy,0,0.830,0.354
+p271_203,p271,p271_203,0,-1,/MeshRIR/S1-M3969_npy/ir_2870.npy,0,0.923,0.390
+p271_204,p271,p271_204,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_53_numComb_5284_mic_4_sweep_3.wav,0,1.180,0.933
+p271_205,p271,p271_205,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_1_numComb_103_mic_5_sweep_2.wav,0,2.153,2.317
+p271_206,p271,p271_206,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_7_numComb_668_mic_5_sweep_4.wav,0,1.570,0.444
+p271_207,p271,p271_207,0,-1,/MYRIAD/AIL/SU1/P1/XM5_RIR.wav,0,1.497,0.432
+p271_208,p271,p271_208,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_2_numComb_168_mic_5_sweep_1.wav,0,1.939,2.496
+p271_209,p271,p271_209,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_8_numComb_754_mic_1_sweep_3.wav,0,1.491,0.368
+p271_210,p271,p271_210,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_31_numComb_3100_mic_5_sweep_2.wav,0,1.439,0.536
+p271_211,p271,p271_211,0,-1,/MYRIAD/AIL/SL2/P1/BTELB_RIR.wav,0,5.477,0.347
+p271_212,p271,p271_212,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_12_numComb_1159_mic_4_sweep_5.wav,0,1.903,0.828
+p271_213,p271,p271_213,0,-1,/MeshRIR/S1-M3969_npy/ir_2509.npy,0,0.990,0.325
+p271_214,p271,p271_214,0,-1,/MYRIAD/AIL/SL7/P1/CMA20_45_RIR.wav,0,1.260,0.407
+p271_215,p271,p271_215,0,-1,/MYRIAD/AIL/SU12/P2/CMA20_-135_RIR.wav,0,1.699,0.409
+p271_216,p271,p271_216,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-18_S_PA-23_N_Ch_10.wav,0,2.171,0.224
+p271_217,p271,p271_217,0,-1,/MeshRIR/S1-M3969_npy/ir_2958.npy,0,0.875,0.312
+p271_218,p271,p271_218,0,-1,/MeshRIR/S1-M3969_npy/ir_2829.npy,0,1.094,0.457
+p271_219,p271,p271_219,0,-1,/MYRIAD/AIL/SU8/P2/CMA10_-90_RIR.wav,0,2.274,0.379
+p271_220,p271,p271_220,0,-1,/MeshRIR/S1-M3969_npy/ir_1417.npy,0,0.879,0.490
+p271_221,p271,p271_221,0,-1,/MeshRIR/S1-M3969_npy/ir_1346.npy,0,1.205,0.410
+p271_222,p271,p271_222,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_14_numComb_1376_mic_5_sweep_4.wav,0,1.548,0.479
+p271_223,p271,p271_223,0,-1,/MeshRIR/S1-M3969_npy/ir_403.npy,0,1.237,0.611
+p271_224,p271,p271_224,0,-1,/MeshRIR/S1-M3969_npy/ir_3517.npy,0,1.058,0.597
+p271_225,p271,p271_225,0,-1,/MeshRIR/S1-M3969_npy/ir_793.npy,0,0.796,0.416
+p271_226,p271,p271_226,0,-1,/MeshRIR/S1-M3969_npy/ir_2214.npy,0,0.994,0.529
+p271_227,p271,p271_227,0,-1,/MeshRIR/S1-M3969_npy/ir_3732.npy,0,0.978,0.352
+p271_228,p271,p271_228,0,-1,/MeshRIR/S1-M3969_npy/ir_2996.npy,0,1.052,0.453
+p271_229,p271,p271_229,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_10_numComb_949_mic_4_sweep_5.wav,0,1.935,0.465
+p271_230,p271,p271_230,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_2_numComb_190_mic_1_sweep_5.wav,0,1.482,0.373
+p271_231,p271,p271_231,0,-1,/MeshRIR/S1-M3969_npy/ir_2558.npy,0,1.109,0.365
+p271_232,p271,p271_232,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_35_numComb_3447_mic_5_sweep_3.wav,0,0.820,0.577
+p271_233,p271,p271_233,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_24_numComb_2359_mic_2_sweep_5.wav,0,0.922,0.503
+p271_234,p271,p271_234,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS4/AS4/Eigenmike Capsules/MV4_AS4_Eigen_R_OA-20_S_PA-05_Ch_12.wav,0,0.563,0.265
+p271_235,p271,p271_235,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_38_numComb_3826_mic_2_sweep_4.wav,0,0.665,0.560
+p271_236,p271,p271_236,0,-1,/MeshRIR/S1-M3969_npy/ir_1742.npy,0,1.050,0.564
+p271_237,p271,p271_237,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-07_S_PA-09_S_Ch_11.wav,0,0.941,0.293
+p271_238,p271,p271_238,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2654_mic_1_sweep_2.wav,0,1.315,0.481
+p271_239,p271,p271_239,0,-1,/MeshRIR/S1-M3969_npy/ir_1848.npy,0,0.941,0.540
+p271_240,p271,p271_240,0,-1,/MeshRIR/S32-M441_npy/ir_437.npy,28,1.181,0.615
+p271_241,p271,p271_241,0,-1,/MeshRIR/S1-M3969_npy/ir_2526.npy,0,1.069,0.428
+p271_242,p271,p271_242,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-03_S_PA-15_N_Ch_28.wav,0,2.430,0.256
+p271_243,p271,p271_243,0,-1,/MeshRIR/S1-M3969_npy/ir_2829.npy,0,1.005,0.457
+p271_244,p271,p271_244,0,-1,/MYRIAD/AIL/SU11/P2/CMA20_0_RIR.wav,0,1.517,0.427
+p271_245,p271,p271_245,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_30_numComb_3001_mic_4_sweep_2.wav,0,1.169,0.593
+p271_246,p271,p271_246,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_54_numComb_32_mic_2_sweep_3.wav,0,0.476,0.864
+p271_247,p271,p271_247,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_19_numComb_1920_mic_3_sweep_4.wav,0,0.920,0.479
+p271_248,p271,p271_248,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-16_S_PA-11_N_Ch_14.wav,0,0.634,0.304
+p271_249,p271,p271_249,0,-1,/MeshRIR/S1-M3969_npy/ir_1404.npy,0,1.062,0.473
+p271_250,p271,p271_250,0,-1,/MeshRIR/S1-M3969_npy/ir_1181.npy,0,0.937,0.327
+p271_251,p271,p271_251,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_15_numComb_1502_mic_3_sweep_5.wav,0,1.186,0.551
+p271_252,p271,p271_252,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_37_numComb_3711_mic_2_sweep_2.wav,0,0.746,0.556
+p271_253,p271,p271_253,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_25_numComb_2451_mic_2_sweep_1.wav,0,0.834,0.460
+p271_254,p271,p271_254,0,-1,/MYRIAD/AIL/SL6/P2/CMA20_-135_RIR.wav,0,1.479,0.419
+p271_255,p271,p271_255,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-01_S_PA-11_W_Ch_6.wav,0,0.741,0.312
+p271_256,p271,p271_256,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-09_S_PA-15_E_Ch_14.wav,0,1.220,0.314
+p271_257,p271,p271_257,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS1/AS1/Eigenmike Capsules/MV4_AS1_Eigen_R_PA-03_S_PA-19_E_Ch_31.wav,0,1.171,0.261
+p271_258,p271,p271_258,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_26_numComb_2583_mic_4_sweep_1.wav,0,1.406,0.584
+p271_259,p271,p271_259,0,-1,/MYRIAD/AIL/SL1/P1/CMA10_-90_RIR.wav,0,2.749,0.377
+p271_261,p271,p271_261,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_40_numComb_4003_mic_1_sweep_4.wav,0,0.933,0.570
+p271_262,p271,p271_262,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_46_numComb_4619_mic_4_sweep_2.wav,0,1.394,0.718
+p271_263,p271,p271_263,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_22_numComb_2238_mic_4_sweep_2.wav,0,1.919,0.569
+p271_264,p271,p271_264,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_35_numComb_3447_mic_5_sweep_3.wav,0,0.810,0.577
+p271_265,p271,p271_265,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_8_numComb_832_mic_1_sweep_1.wav,0,1.615,0.375
+p271_266,p271,p271_266,0,-1,/MeshRIR/S32-M441_npy/ir_196.npy,30,1.355,0.640
+p271_267,p271,p271_267,0,-1,/MeshRIR/S1-M3969_npy/ir_143.npy,0,1.075,0.486
+p271_268,p271,p271_268,0,-1,/Palimpsest/07_Air_Raid_Shelter/07-DPA 4061-Stereo-48K-BURST/07b-AirRaidShelterRear-DPA 4061-Stereo-48K-BURST.wav,0,0.080,1.336
+p271_269,p271,p271_269,0,-1,/MeshRIR/S1-M3969_npy/ir_551.npy,0,1.208,0.431
+p271_270,p271,p271_270,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS3/AS3/Eigenmike Capsules/MV5_AS3_Eigen_R_PA-3A_S_PA-06_Ch_19.wav,0,1.617,0.295
+p271_271,p271,p271_271,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3345_mic_3_sweep_5.wav,0,1.151,0.562
+p271_272,p271,p271_272,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2677_mic_1_sweep_2.wav,0,0.987,0.462
+p271_273,p271,p271_273,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_12_numComb_1159_mic_4_sweep_5.wav,0,1.756,0.828
+p271_274,p271,p271_274,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS4/AS4/Eigenmike Capsules/MV4_AS4_Eigen_R_OA-13_S_PA-13_Ch_24.wav,0,0.292,0.252
+p271_275,p271,p271_275,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4054_mic_1_sweep_3.wav,0,0.768,0.574
+p271_276,p271,p271_276,0,-1,/MeshRIR/S1-M3969_npy/ir_609.npy,0,1.075,0.383
+p271_277,p271,p271_277,0,-1,/MeshRIR/S32-M441_npy/ir_98.npy,11,0.917,0.606
+p271_278,p271,p271_278,0,-1,/MeshRIR/S1-M3969_npy/ir_3378.npy,0,0.963,0.399
+p271_279,p271,p271_279,0,-1,/MeshRIR/S32-M441_npy/ir_350.npy,12,0.949,0.602
+p271_280,p271,p271_280,0,-1,/MYRIAD/SAL/S-45_2/DHR_RIR.wav,0,3.721,1.644
+p271_281,p271,p271_281,0,-1,/MYRIAD/AIL/SU3/P2/BTERF_RIR.wav,0,4.693,0.343
+p271_282,p271,p271_282,0,-1,/MeshRIR/S1-M3969_npy/ir_3576.npy,0,1.106,0.388
+p271_283,p271,p271_283,0,-1,/MeshRIR/S1-M3969_npy/ir_319.npy,0,1.259,0.315
+p271_284,p271,p271_284,0,-1,/MeshRIR/S1-M3969_npy/ir_2526.npy,0,1.147,0.428
+p271_285,p271,p271_285,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_14_numComb_1425_mic_4_sweep_4.wav,0,1.935,0.516
+p271_286,p271,p271_286,0,-1,/Palimpsest/07_Air_Raid_Shelter/07-DPA 4061-Stereo-48K-BURST/07b-AirRaidShelterRear-DPA 4061-Stereo-48K-BURST.wav,1,0.064,1.274
+p271_287,p271,p271_287,0,-1,/MeshRIR/S32-M441_npy/ir_437.npy,24,0.837,0.660
+p271_288,p271,p271_288,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_7_numComb_668_mic_5_sweep_4.wav,0,1.439,0.444
+p271_289,p271,p271_289,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_24_numComb_2359_mic_2_sweep_5.wav,0,0.734,0.503
+p271_290,p271,p271_290,0,-1,/MeshRIR/S1-M3969_npy/ir_3450.npy,0,0.877,0.420
+p271_291,p271,p271_291,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS1/AS1/Eigenmike Capsules/MV5_AS1_Eigen_R_PA-7B_S_PA-7C_N_Ch_27.wav,0,1.365,0.317
+p271_292,p271,p271_292,0,-1,/MeshRIR/S1-M3969_npy/ir_1761.npy,0,1.185,0.455
+p271_293,p271,p271_293,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-01_S_PA-11_W_Ch_6.wav,0,0.726,0.312
+p271_294,p271,p271_294,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4106_mic_2_sweep_5.wav,0,0.881,0.624
+p271_295,p271,p271_295,0,-1,/MeshRIR/S1-M3969_npy/ir_2958.npy,0,0.975,0.312
+p271_296,p271,p271_296,0,-1,/MeshRIR/S1-M3969_npy/ir_3856.npy,0,1.157,0.533
+p271_297,p271,p271_297,0,-1,/MeshRIR/S1-M3969_npy/ir_2496.npy,0,0.977,0.574
+p271_298,p271,p271_298,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-16_S_PA-11_N_Ch_14.wav,0,0.573,0.304
+p271_299,p271,p271_299,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_25_numComb_2534_mic_5_sweep_2.wav,0,1.765,0.526
+p271_300,p271,p271_300,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_7_numComb_668_mic_5_sweep_3.wav,0,1.781,0.478
+p271_301,p271,p271_301,0,-1,/AIR_1_4_nophones/AIR_wav_files/air_stairway_0_1_2_15_mls.wav,0,1.596,0.730
+p271_302,p271,p271_302,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4124_mic_2_sweep_3.wav,0,0.935,0.579
+p271_303,p271,p271_303,0,-1,/MeshRIR/S1-M3969_npy/ir_319.npy,0,1.153,0.315
+p271_304,p271,p271_304,0,-1,/MeshRIR/S1-M3969_npy/ir_2769.npy,0,0.949,0.342
+p271_305,p271,p271_305,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-12_S_PA-12_S_Ch_19.wav,0,0.949,0.268
+p271_306,p271,p271_306,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_33_numComb_3267_mic_3_sweep_3.wav,0,1.114,0.595
+p271_307,p271,p271_307,0,-1,/MeshRIR/S1-M3969_npy/ir_2944.npy,0,0.920,0.543
+p271_308,p271,p271_308,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4154_mic_5_sweep_1.wav,0,1.214,0.679
+p271_309,p271,p271_309,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_14_numComb_1376_mic_5_sweep_4.wav,0,1.530,0.479
+p271_310,p271,p271_310,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_7_numComb_695_mic_4_sweep_5.wav,0,2.142,0.943
+p271_311,p271,p271_311,0,-1,/MeshRIR/S1-M3969_npy/ir_1164.npy,0,0.967,0.551
+p271_312,p271,p271_312,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_46_numComb_4619_mic_4_sweep_2.wav,0,1.450,0.718
+p271_313,p271,p271_313,0,-1,/MeshRIR/S1-M3969_npy/ir_1006.npy,0,1.079,0.543
+p271_314,p271,p271_314,0,-1,/ACE-Challenge/EM32/Meeting_Room_2/2/EM32_611_2_RIR.wav,16,1.219,0.468
+p271_315,p271,p271_315,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_38_numComb_3748_mic_3_sweep_2.wav,0,1.019,0.650
+p271_316,p271,p271_316,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_33_numComb_3288_mic_3_sweep_5.wav,0,1.095,0.553
+p271_317,p271,p271_317,0,-1,/MIT_RIRs/h107_Supermerket_1txts.wav,0,0.669,0.639
+p271_318,p271,p271_318,0,-1,/MeshRIR/S1-M3969_npy/ir_1959.npy,0,1.064,0.351
+p271_319,p271,p271_319,0,-1,/MeshRIR/S1-M3969_npy/ir_1881.npy,0,1.000,0.591
+p271_320,p271,p271_320,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS1/AS1/Eigenmike Capsules/MV5_AS1_Eigen_R_PA-06_S_PA-7D_S_Ch_22.wav,0,1.108,0.329
+p271_321,p271,p271_321,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_21_numComb_2044_mic_2_sweep_2.wav,0,1.423,0.446
+p271_322,p271,p271_322,0,-1,/MeshRIR/S1-M3969_npy/ir_478.npy,0,1.148,0.381
+p271_323,p271,p271_323,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_12_numComb_1182_mic_3_sweep_5.wav,0,1.153,0.547
+p271_324,p271,p271_324,0,-1,/MeshRIR/S1-M3969_npy/ir_3907.npy,0,1.169,0.500
+p271_325,p271,p271_325,0,-1,/MeshRIR/S1-M3969_npy/ir_3843.npy,0,0.832,0.471
+p271_326,p271,p271_326,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2655_mic_5_sweep_5.wav,0,1.587,0.535
+p271_327,p271,p271_327,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_46_numComb_4619_mic_4_sweep_2.wav,0,1.409,0.718
+p271_328,p271,p271_328,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_54_numComb_32_mic_2_sweep_3.wav,0,0.472,0.864
+p271_329,p271,p271_329,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS1/AS1/Eigenmike Capsules/MV5_AS1_Eigen_R_PA-06_S_PA-7D_S_Ch_22.wav,0,1.047,0.329
+p271_330,p271,p271_330,0,-1,/MYRIAD/AIL/SU1/P1/CMA10_-90_RIR.wav,0,2.526,0.367
+p271_331,p271,p271_331,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_40_numComb_3977_mic_1_sweep_1.wav,0,0.897,0.706
+p271_332,p271,p271_332,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_40_numComb_3977_mic_1_sweep_1.wav,0,0.950,0.706
+p271_333,p271,p271_333,0,-1,/MYRIAD/AIL/SU8/P1/CMA10_-90_RIR.wav,0,2.350,0.370
+p271_334,p271,p271_334,0,-1,/MeshRIR/S1-M3969_npy/ir_478.npy,0,1.024,0.381
+p271_335,p271,p271_335,0,-1,/MeshRIR/S1-M3969_npy/ir_3439.npy,0,0.874,0.528
+p271_336,p271,p271_336,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_31_numComb_3100_mic_5_sweep_2.wav,0,1.470,0.536
+p271_337,p271,p271_337,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-16_S_PA-11_N_Ch_14.wav,0,0.636,0.304
+p271_338,p271,p271_338,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-03_S_PA-12_S_Ch_25.wav,0,1.416,0.284
+p271_339,p271,p271_339,0,-1,/MeshRIR/S1-M3969_npy/ir_584.npy,0,0.987,0.416
+p271_340,p271,p271_340,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_26_numComb_2563_mic_2_sweep_3.wav,0,1.107,0.484
+p271_341,p271,p271_341,0,-1,/MYRIAD/AIL/SL6/P1/BTERB_RIR.wav,0,4.712,0.354
+p271_342,p271,p271_342,0,-1,/BRUDEX/rir/rev_high/RIR_high_eMicRun_3_DOA_0deg.mat,13,1.257,0.860
+p271_343,p271,p271_343,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_52_numComb_5148_mic_1_sweep_5.wav,0,0.548,0.911
+p271_344,p271,p271_344,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_28_numComb_2816_mic_5_sweep_4.wav,0,1.812,0.541
+p271_345,p271,p271_345,0,-1,/MeshRIR/S1-M3969_npy/ir_2210.npy,0,1.049,0.464
+p271_346,p271,p271_346,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_54_numComb_37_mic_1_sweep_3.wav,0,0.562,0.840
+p271_347,p271,p271_347,0,-1,/MeshRIR/S1-M3969_npy/ir_331.npy,0,0.874,0.431
+p271_348,p271,p271_348,0,-1,/MeshRIR/S1-M3969_npy/ir_3520.npy,0,1.121,0.640
+p271_349,p271,p271_349,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_22_numComb_2162_mic_1_sweep_4.wav,0,1.140,0.492
+p271_350,p271,p271_350,0,-1,/MeshRIR/S1-M3969_npy/ir_551.npy,0,1.080,0.431
+p271_351,p271,p271_351,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_38_numComb_3826_mic_2_sweep_4.wav,0,0.740,0.560
+p271_352,p271,p271_352,0,-1,/MeshRIR/S1-M3969_npy/ir_2910.npy,0,0.921,0.410
+p271_353,p271,p271_353,0,-1,/AIR_1_4_nophones/AIR_wav_files/air_booth_1_1_1.wav,0,2.863,0.134
+p271_354,p271,p271_354,0,-1,/MeshRIR/S1-M3969_npy/ir_1602.npy,0,0.989,0.373
+p271_355,p271,p271_355,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-18_S_PA-11_E_Ch_15.wav,0,1.774,0.239
+p271_356,p271,p271_356,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-03_S_PA-15_W_Ch_32.wav,0,2.552,0.252
+p271_357,p271,p271_357,0,-1,/MeshRIR/S1-M3969_npy/ir_1761.npy,0,1.336,0.455
+p271_358,p271,p271_358,0,-1,/MYRIAD/AIL/SU1/P1/XM5_RIR.wav,0,1.490,0.432
+p271_359,p271,p271_359,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_37_numComb_3664_mic_5_sweep_1.wav,0,1.432,0.606
+p271_360,p271,p271_360,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3345_mic_3_sweep_5.wav,0,1.129,0.562
+p271_361,p271,p271_361,0,-1,/MeshRIR/S1-M3969_npy/ir_2450.npy,0,0.999,0.587
+p271_362,p271,p271_362,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_24_numComb_2350_mic_1_sweep_4.wav,0,1.267,0.452
+p271_363,p271,p271_363,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_9_numComb_930_mic_5_sweep_4.wav,0,2.224,0.535
+p271_364,p271,p271_364,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-01_S_PA-03_E_Ch_9.wav,0,0.828,0.307
+p271_365,p271,p271_365,0,-1,/MYRIAD/AIL/SL1/P1/CMA20_90_RIR.wav,0,1.675,0.428
+p271_366,p271,p271_366,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_46_numComb_4579_mic_3_sweep_3.wav,0,0.760,0.688
+p271_367,p271,p271_367,0,-1,/MeshRIR/S1-M3969_npy/ir_403.npy,0,1.187,0.611
+p271_368,p271,p271_368,0,-1,/MeshRIR/S1-M3969_npy/ir_1742.npy,0,1.053,0.564
+p271_369,p271,p271_369,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-01_S_PA-03_E_Ch_9.wav,0,0.707,0.307
+p271_370,p271,p271_370,0,-1,/MYRIAD/AIL/SU4/P1/CMA20_0_RIR.wav,0,1.825,0.402
+p271_371,p271,p271_371,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4054_mic_1_sweep_3.wav,0,0.737,0.574
+p271_372,p271,p271_372,0,-1,/MeshRIR/S1-M3969_npy/ir_3513.npy,0,1.096,0.415
+p271_373,p271,p271_373,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_8_numComb_4_mic_4_sweep_3.wav,0,1.796,2.870
+p271_374,p271,p271_374,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_3_numComb_281_mic_4_sweep_1.wav,0,1.813,2.158
+p271_375,p271,p271_375,0,-1,/MeshRIR/S1-M3969_npy/ir_3378.npy,0,1.102,0.399
+p271_376,p271,p271_376,0,-1,/MeshRIR/S1-M3969_npy/ir_162.npy,0,0.895,0.395
+p271_377,p271,p271_377,0,-1,/BRUDEX/rir/rev_high/RIR_high_eMicRun_1_DOA_150deg.mat,4,2.059,0.826
+p271_378,p271,p271_378,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS1/AS1/Eigenmike Capsules/MV5_AS1_Eigen_R_PA-7B_S_PA-7C_N_Ch_27.wav,0,1.215,0.317
+p271_379,p271,p271_379,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_13_numComb_1327_mic_2_sweep_5.wav,0,1.242,0.403
+p271_380,p271,p271_380,0,-1,/MYRIAD/AIL/SU12/P1/BTERF_RIR.wav,0,8.126,0.313
+p271_381,p271,p271_381,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4154_mic_5_sweep_1.wav,0,1.181,0.679
+p271_382,p271,p271_382,0,-1,/BRUDEX/rir/rev_high/RIR_av_high_DOA_-90deg.mat,40,0.801,0.883
+p271_383,p271,p271_383,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_25_numComb_2451_mic_2_sweep_1.wav,0,0.878,0.460
+p271_384,p271,p271_384,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_8_numComb_749_mic_3_sweep_3.wav,0,1.183,0.540
+p271_385,p271,p271_385,0,-1,/MeshRIR/S1-M3969_npy/ir_38.npy,0,1.111,0.566
+p271_386,p271,p271_386,0,-1,/MeshRIR/S1-M3969_npy/ir_3576.npy,0,1.042,0.388
+p271_387,p271,p271_387,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-16_S_PA-03_N_Ch_16.wav,0,0.876,0.307
+p271_388,p271,p271_388,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_37_numComb_3664_mic_5_sweep_1.wav,0,1.530,0.606
+p271_389,p271,p271_389,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-18_S_PA-11_E_Ch_24.wav,0,1.912,0.336
+p271_390,p271,p271_390,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-16_S_PA-15_W_Ch_11.wav,0,2.696,0.282
+p271_391,p271,p271_391,0,-1,/MYRIAD/AIL/SU3/P2/XM1_RIR.wav,0,2.618,0.364
+p271_392,p271,p271_392,0,-1,/MeshRIR/S1-M3969_npy/ir_2214.npy,0,1.053,0.529
+p271_393,p271,p271_393,0,-1,/MYRIAD/AIL/ST4/P1/DHR_RIR.wav,0,4.514,0.374
+p271_394,p271,p271_394,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-18_S_PA-19_E_Ch_11.wav,0,1.551,0.292
+p271_395,p271,p271_395,0,-1,/MeshRIR/S1-M3969_npy/ir_729.npy,0,0.944,0.440
+p271_396,p271,p271_396,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-03_S_PA-12_W_Ch_30.wav,0,1.127,0.328
+p271_397,p271,p271_397,0,-1,/MeshRIR/S1-M3969_npy/ir_2558.npy,0,0.992,0.365
+p271_398,p271,p271_398,0,-1,/MYRIAD/AIL/ST4/P2/XM2_RIR.wav,0,5.010,0.378
+p271_399,p271,p271_399,0,-1,/MeshRIR/S1-M3969_npy/ir_710.npy,0,1.009,0.503
+p271_400,p271,p271_400,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_53_numComb_5284_mic_4_sweep_3.wav,0,1.070,0.933
+p271_401,p271,p271_401,0,-1,/MeshRIR/S1-M3969_npy/ir_817.npy,0,1.130,0.535
+p271_402,p271,p271_402,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_25_numComb_2451_mic_2_sweep_1.wav,0,0.791,0.460
+p271_403,p271,p271_403,0,-1,/MeshRIR/S32-M441_npy/ir_134.npy,26,1.278,0.575
+p271_404,p271,p271_404,0,-1,/MeshRIR/S1-M3969_npy/ir_870.npy,0,0.988,0.385
+p271_405,p271,p271_405,0,-1,/MeshRIR/S1-M3969_npy/ir_1168.npy,0,1.086,0.516
+p271_406,p271,p271_406,0,-1,/MYRIAD/AIL/SL5/P1/XM3_RIR.wav,0,4.743,0.359
+p271_407,p271,p271_407,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_16_numComb_1546_mic_1_sweep_1.wav,0,1.240,0.420
+p271_408,p271,p271_408,0,-1,/MeshRIR/S1-M3969_npy/ir_1707.npy,0,0.972,0.567
+p271_409,p271,p271_409,0,-1,/MeshRIR/S1-M3969_npy/ir_950.npy,0,1.018,0.514
+p271_410,p271,p271_410,0,-1,/MeshRIR/S1-M3969_npy/ir_491.npy,0,0.965,0.515
+p271_411,p271,p271_411,0,-1,/MeshRIR/S1-M3969_npy/ir_2317.npy,0,0.933,0.522
+p271_412,p271,p271_412,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4154_mic_5_sweep_1.wav,0,1.107,0.679
+p271_413,p271,p271_413,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-23_S_PA-09_W_Ch_29.wav,0,1.934,0.262
+p271_414,p271,p271_414,0,-1,/MYRIAD/AIL/SU3/P1/XM1_RIR.wav,0,2.971,0.378
+p271_415,p271,p271_415,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_49_numComb_4891_mic_2_sweep_3.wav,0,0.661,0.680
+p271_416,p271,p271_416,0,-1,/MeshRIR/S1-M3969_npy/ir_1742.npy,0,1.056,0.564
+p271_417,p271,p271_417,0,-1,/MYRIAD/AIL/SU4/P2/CMA10_-90_RIR.wav,0,2.534,0.372
+p271_418,p271,p271_418,0,-1,/MeshRIR/S1-M3969_npy/ir_1181.npy,0,0.819,0.327
+p271_419,p271,p271_419,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_16_numComb_1573_mic_2_sweep_1.wav,0,1.331,0.414
+p271_420,p271,p271_420,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_38_numComb_3748_mic_3_sweep_2.wav,0,1.060,0.650
+p271_421,p271,p271_421,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_38_numComb_3808_mic_2_sweep_1.wav,0,0.842,0.551
+p271_422,p271,p271_422,0,-1,/MeshRIR/S1-M3969_npy/ir_563.npy,0,1.109,0.356
+p271_423,p271,p271_423,0,-1,/MYRIAD/AIL/SL3/P1/XM1_RIR.wav,0,4.965,0.371
+p271_424,p271,p271_424,0,-1,/MeshRIR/S1-M3969_npy/ir_1692.npy,0,0.836,0.472
+p271_425,p271,p271_425,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_2_numComb_217_mic_1_sweep_5.wav,0,1.345,0.375
+p271_426,p271,p271_426,0,-1,/MYRIAD/AIL/SL5/P1/XM3_RIR.wav,0,5.702,0.359
+p271_427,p271,p271_427,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_39_numComb_3934_mic_1_sweep_4.wav,0,0.898,0.569
+p271_428,p271,p271_428,0,-1,/MeshRIR/S1-M3969_npy/ir_1881.npy,0,1.061,0.591
+p271_429,p271,p271_429,0,-1,/MeshRIR/S32-M441_npy/ir_252.npy,26,0.856,0.663
+p271_430,p271,p271_430,0,-1,/MeshRIR/S1-M3969_npy/ir_478.npy,0,1.138,0.381
+p271_431,p271,p271_431,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_54_numComb_60_mic_1_sweep_3.wav,0,0.604,0.941
+p271_432,p271,p271_432,0,-1,/MYRIAD/AIL/SL2/P1/BTELB_RIR.wav,0,4.260,0.347
+p271_433,p271,p271_433,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS1/AS1/Eigenmike Capsules/MV4_AS1_Eigen_R_PA-11_S_PA-19_W_Ch_16.wav,0,3.306,0.224
+p271_434,p271,p271_434,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_54_numComb_32_mic_2_sweep_3.wav,0,0.480,0.864
+p271_435,p271,p271_435,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-10_S_PA-09_W_Ch_5.wav,0,1.246,0.342
+p271_436,p271,p271_436,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Reference Lav/MV4_AS2_Ref_Lav_R_PA-09_S_PA-03_W.wav,0,3.107,0.231
+p271_437,p271,p271_437,0,-1,/BRUDEX/rir/rev_medium/RIR_medium_eMicRun_2_DOA_90deg.mat,8,2.615,0.338
+p271_438,p271,p271_438,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_5_numComb_531_mic_5_sweep_4.wav,0,1.519,0.433
+p271_439,p271,p271_439,0,-1,/MeshRIR/S1-M3969_npy/ir_950.npy,0,1.151,0.514
+p271_440,p271,p271_440,0,-1,/MeshRIR/S1-M3969_npy/ir_3496.npy,0,0.878,0.551
+p271_441,p271,p271_441,0,-1,/MeshRIR/S1-M3969_npy/ir_2642.npy,0,0.896,0.406
+p271_442,p271,p271_442,0,-1,/MeshRIR/S32-M441_npy/ir_350.npy,22,0.902,0.675
+p271_443,p271,p271_443,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-13_S_PA-19_W_Ch_9.wav,0,1.898,0.257
+p271_444,p271,p271_444,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4154_mic_5_sweep_1.wav,0,1.205,0.679
+p271_445,p271,p271_445,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_21_numComb_2044_mic_2_sweep_2.wav,0,1.286,0.446
+p271_446,p271,p271_446,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_19_numComb_1846_mic_3_sweep_3.wav,0,1.122,0.513
+p271_447,p271,p271_447,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS1/AS1/TOA/MV4_AS1_Eigen_R_PA-11_S_PA-12_N_3OA.wav,12,3.367,0.274
+p271_448,p271,p271_448,0,-1,/MYRIAD/AIL/SU8/P1/XM1_RIR.wav,0,2.841,0.365
+p271_449,p271,p271_449,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-01_S_PA-03_E_Ch_9.wav,0,0.679,0.307
+p271_450,p271,p271_450,0,-1,/MeshRIR/S1-M3969_npy/ir_3576.npy,0,0.814,0.388
+p271_451,p271,p271_451,0,-1,/MYRIAD/AIL/SU2/P2/DHL_RIR.wav,0,3.288,0.395
+p271_452,p271,p271_452,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_13_numComb_1265_mic_2_sweep_2.wav,0,1.152,0.402
+p271_453,p271,p271_453,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_22_numComb_2162_mic_1_sweep_4.wav,0,1.221,0.492
+p271_454,p271,p271_454,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_50_numComb_4959_mic_1_sweep_1.wav,0,0.609,0.687
+p274_002,p274,p274_002,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS4/AS4/Eigenmike Capsules/MV4_AS4_Eigen_R_OA-20_S_PA-05_Ch_12.wav,0,0.552,0.265
+p274_003,p274,p274_003,0,-1,/AIR_1_4_nophones/AIR_wav_files/air_stairway_0_1_2_15_mls.wav,0,1.395,0.730
+p274_004,p274,p274_004,0,-1,/MeshRIR/S1-M3969_npy/ir_3485.npy,0,0.822,0.523
+p274_005,p274,p274_005,0,-1,/BRUDEX/rir/rev_high/RIR_av_high_DOA_-90deg.mat,29,1.437,0.839
+p274_006,p274,p274_006,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_20_numComb_1947_mic_1_sweep_4.wav,0,1.201,0.426
+p274_007,p274,p274_007,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-01_S_PA-11_W_Ch_6.wav,0,0.715,0.312
+p274_008,p274,p274_008,0,-1,/MYRIAD/AIL/SL6/P2/CMA20_45_RIR.wav,0,1.168,0.417
+p274_009,p274,p274_009,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_43_numComb_4285_mic_1_sweep_2.wav,0,0.780,0.595
+p274_010,p274,p274_010,0,-1,/MYRIAD/AIL/SL6/P1/BTERB_RIR.wav,0,5.951,0.354
+p274_011,p274,p274_011,0,-1,/MeshRIR/S1-M3969_npy/ir_504.npy,0,1.110,0.522
+p274_012,p274,p274_012,0,-1,/MeshRIR/S1-M3969_npy/ir_2642.npy,0,0.979,0.406
+p274_013,p274,p274_013,0,-1,/MeshRIR/S1-M3969_npy/ir_2145.npy,0,1.194,0.497
+p274_014,p274,p274_014,0,-1,/BRUDEX/rir/rev_medium/RIR_medium_eMicRun_2_DOA_90deg.mat,5,11.161,0.315
+p274_015,p274,p274_015,0,-1,/MeshRIR/S1-M3969_npy/ir_1738.npy,0,0.997,0.596
+p274_016,p274,p274_016,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_7_numComb_695_mic_4_sweep_5.wav,0,1.821,0.943
+p274_017,p274,p274_017,0,-1,/MeshRIR/S1-M3969_npy/ir_2526.npy,0,1.111,0.428
+p274_018,p274,p274_018,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_21_numComb_2050_mic_5_sweep_2.wav,0,1.899,0.484
+p274_019,p274,p274_019,0,-1,/MYRIAD/AIL/ST4/P2/CMA20_135_RIR.wav,0,1.592,0.439
+p274_020,p274,p274_020,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_18_numComb_1809_mic_5_sweep_1.wav,0,1.523,0.475
+p274_021,p274,p274_021,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_9_numComb_908_mic_1_sweep_1.wav,0,1.322,0.395
+p274_022,p274,p274_022,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4106_mic_2_sweep_5.wav,0,0.973,0.624
+p274_023,p274,p274_023,0,-1,/MeshRIR/S1-M3969_npy/ir_802.npy,0,0.822,0.441
+p274_024,p274,p274_024,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_31_numComb_3070_mic_5_sweep_2.wav,0,1.283,0.562
+p274_025,p274,p274_025,0,-1,/MeshRIR/S32-M441_npy/ir_23.npy,12,0.979,0.635
+p274_026,p274,p274_026,0,-1,/MeshRIR/S1-M3969_npy/ir_2829.npy,0,1.099,0.457
+p274_027,p274,p274_027,0,-1,/MeshRIR/S1-M3969_npy/ir_2509.npy,0,0.862,0.325
+p274_028,p274,p274_028,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS4/AS4/Eigenmike Capsules/MV4_AS4_Eigen_R_OA-13_S_PA-13_Ch_24.wav,0,0.325,0.252
+p274_029,p274,p274_029,0,-1,/MeshRIR/S1-M3969_npy/ir_3520.npy,0,1.143,0.640
+p274_030,p274,p274_030,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_12_numComb_1159_mic_4_sweep_5.wav,0,1.630,0.828
+p274_031,p274,p274_031,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS1/AS1/Eigenmike Capsules/MV5_AS1_Eigen_R_PA-7B_S_PA-7C_N_Ch_27.wav,0,1.268,0.317
+p274_032,p274,p274_032,0,-1,/MeshRIR/S32-M441_npy/ir_439.npy,16,1.162,0.535
+p274_034,p274,p274_034,0,-1,/MYRIAD/AIL/SU1/P1/CMA10_-90_RIR.wav,0,2.533,0.367
+p274_036,p274,p274_036,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_37_numComb_3711_mic_2_sweep_2.wav,0,0.838,0.556
+p274_037,p274,p274_037,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-18_S_PA-19_E_Ch_11.wav,0,1.640,0.292
+p274_038,p274,p274_038,0,-1,/MeshRIR/S1-M3969_npy/ir_680.npy,0,1.131,0.458
+p274_039,p274,p274_039,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_24_numComb_2383_mic_3_sweep_4.wav,0,1.186,0.507
+p274_040,p274,p274_040,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_20_numComb_1947_mic_1_sweep_4.wav,0,1.196,0.426
+p274_041,p274,p274_041,0,-1,/MeshRIR/S1-M3969_npy/ir_1768.npy,0,1.035,0.505
+p274_042,p274,p274_042,0,-1,/MYRIAD/AIL/SU4/P1/CMA20_135_RIR.wav,0,1.723,0.419
+p274_043,p274,p274_043,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_29_numComb_2926_mic_1_sweep_3.wav,0,1.253,0.483
+p274_044,p274,p274_044,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_19_numComb_1880_mic_5_sweep_1.wav,0,1.722,0.480
+p274_045,p274,p274_045,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-16_S_PA-03_N_Ch_16.wav,0,0.919,0.307
+p274_046,p274,p274_046,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_21_numComb_2050_mic_5_sweep_2.wav,0,1.541,0.484
+p274_047,p274,p274_047,0,-1,/MeshRIR/S1-M3969_npy/ir_2239.npy,0,1.078,0.528
+p274_048,p274,p274_048,0,-1,/MYRIAD/AIL/SL3/P2/CMA20_-90_RIR.wav,0,1.111,0.426
+p274_049,p274,p274_049,0,-1,/MeshRIR/S1-M3969_npy/ir_950.npy,0,1.104,0.514
+p274_050,p274,p274_050,0,-1,/MeshRIR/S1-M3969_npy/ir_2509.npy,0,0.936,0.325
+p274_051,p274,p274_051,0,-1,/MeshRIR/S1-M3969_npy/ir_2910.npy,0,0.956,0.410
+p274_052,p274,p274_052,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-09_S_PA-23_W_Ch_24.wav,0,3.157,0.267
+p274_053,p274,p274_053,0,-1,/MeshRIR/S1-M3969_npy/ir_1838.npy,0,1.057,0.504
+p274_054,p274,p274_054,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_28_numComb_11_mic_4_sweep_1.wav,0,1.857,2.886
+p274_056,p274,p274_056,0,-1,/MYRIAD/AIL/SL6/P2/CMA20_45_RIR.wav,0,1.174,0.417
+p274_057,p274,p274_057,0,-1,/MYRIAD/AIL/SL2/P1/BTELB_RIR.wav,0,5.142,0.347
+p274_058,p274,p274_058,0,-1,/MeshRIR/S1-M3969_npy/ir_2349.npy,0,1.001,0.503
+p274_059,p274,p274_059,0,-1,/MeshRIR/S1-M3969_npy/ir_3513.npy,0,1.158,0.415
+p274_060,p274,p274_060,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_17_numComb_1680_mic_4_sweep_2.wav,0,1.543,0.641
+p274_061,p274,p274_061,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS1/AS1/Eigenmike Capsules/MV5_AS1_Eigen_R_PA-7B_S_PA-7C_N_Ch_27.wav,0,1.218,0.317
+p274_062,p274,p274_062,0,-1,/MeshRIR/S1-M3969_npy/ir_3711.npy,0,1.057,0.392
+p274_063,p274,p274_063,0,-1,/Palimpsest/03 Number 3 Covered Slip/03a-#3Mezz-KM184-Distant-BURST.wav,1,0.464,2.801
+p274_064,p274,p274_064,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_38_numComb_3748_mic_3_sweep_2.wav,0,1.119,0.650
+p274_065,p274,p274_065,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_33_numComb_3267_mic_3_sweep_3.wav,0,1.024,0.595
+p274_066,p274,p274_066,0,-1,/MeshRIR/S1-M3969_npy/ir_2500.npy,0,0.933,0.566
+p274_067,p274,p274_067,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_1_numComb_90_mic_3_sweep_3.wav,0,1.421,3.108
+p274_068,p274,p274_068,0,-1,/MeshRIR/S1-M3969_npy/ir_3114.npy,0,1.235,0.438
+p274_069,p274,p274_069,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-02_S_PA-09_E_Ch_13.wav,0,0.605,0.300
+p274_070,p274,p274_070,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS3/AS3/Eigenmike Capsules/MV5_AS3_Eigen_R_PA-3A_S_PA-06_Ch_19.wav,0,1.462,0.295
+p274_071,p274,p274_071,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-05_S_PA-12_S_Ch_29.wav,0,0.812,0.292
+p274_072,p274,p274_072,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_10_numComb_981_mic_3_sweep_1.wav,0,1.266,0.567
+p274_074,p274,p274_074,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_21_numComb_2058_mic_5_sweep_4.wav,0,1.616,0.487
+p274_075,p274,p274_075,0,-1,/MeshRIR/S1-M3969_npy/ir_2870.npy,0,0.862,0.390
+p274_076,p274,p274_076,0,-1,/MeshRIR/S1-M3969_npy/ir_38.npy,0,1.055,0.566
+p274_077,p274,p274_077,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-08_S_PA-15_S_Ch_1.wav,0,1.132,0.244
+p274_078,p274,p274_078,0,-1,/MeshRIR/S1-M3969_npy/ir_991.npy,0,1.092,0.390
+p274_079,p274,p274_079,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3362_mic_4_sweep_1.wav,0,1.510,0.644
+p274_080,p274,p274_080,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_29_numComb_2926_mic_1_sweep_3.wav,0,1.125,0.483
+p274_081,p274,p274_081,0,-1,/MeshRIR/S1-M3969_npy/ir_2259.npy,0,1.045,0.323
+p274_082,p274,p274_082,0,-1,/MeshRIR/S1-M3969_npy/ir_710.npy,0,1.046,0.503
+p274_083,p274,p274_083,0,-1,/MeshRIR/S1-M3969_npy/ir_1380.npy,0,1.159,0.522
+p274_084,p274,p274_084,0,-1,/Palimpsest/07_Air_Raid_Shelter/07-DPA 4061-Stereo-48K-BURST/07b-AirRaidShelterRear-DPA 4061-Stereo-48K-BURST.wav,1,0.073,1.274
+p274_085,p274,p274_085,0,-1,/MeshRIR/S32-M441_npy/ir_292.npy,22,1.213,0.454
+p274_086,p274,p274_086,0,-1,/MeshRIR/S1-M3969_npy/ir_3005.npy,0,1.136,0.457
+p274_087,p274,p274_087,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS3/AS3/Eigenmike Capsules/MV5_AS3_Eigen_R_PA-3A_S_PA-06_Ch_19.wav,0,1.725,0.295
+p274_088,p274,p274_088,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-07_S_PA-12_W_Ch_20.wav,0,0.379,0.286
+p274_089,p274,p274_089,0,-1,/MeshRIR/S1-M3969_npy/ir_2642.npy,0,0.931,0.406
+p274_090,p274,p274_090,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_18_numComb_1809_mic_5_sweep_1.wav,0,1.603,0.475
+p274_091,p274,p274_091,0,-1,/BRUDEX/rir/rev_medium/RIR_medium_eMicRun_3_DOA_120deg.mat,4,3.052,0.331
+p274_092,p274,p274_092,0,-1,/MeshRIR/S1-M3969_npy/ir_2646.npy,0,1.096,0.554
+p274_093,p274,p274_093,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3388_mic_1_sweep_3.wav,0,1.354,0.518
+p274_094,p274,p274_094,0,-1,/MYRIAD/AIL/SL6/P2/CMA20_-135_RIR.wav,0,1.230,0.419
+p274_095,p274,p274_095,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_37_numComb_3694_mic_1_sweep_5.wav,0,0.747,0.580
+p274_096,p274,p274_096,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-01_S_PA-03_E_Ch_9.wav,0,0.659,0.307
+p274_097,p274,p274_097,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4106_mic_2_sweep_5.wav,0,0.930,0.624
+p274_098,p274,p274_098,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_33_numComb_3288_mic_3_sweep_5.wav,0,1.017,0.553
+p274_099,p274,p274_099,0,-1,/MeshRIR/S1-M3969_npy/ir_572.npy,0,1.078,0.534
+p274_100,p274,p274_100,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_19_numComb_1846_mic_3_sweep_3.wav,0,1.185,0.513
+p274_101,p274,p274_101,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_39_numComb_3853_mic_2_sweep_1.wav,0,1.039,0.556
+p274_102,p274,p274_102,0,-1,/MeshRIR/S1-M3969_npy/ir_3732.npy,0,1.170,0.352
+p274_103,p274,p274_103,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_22_numComb_2215_mic_4_sweep_4.wav,0,1.464,0.524
+p274_104,p274,p274_104,0,-1,/MYRIAD/AIL/SU8/P2/CMA10_-90_RIR.wav,0,2.111,0.379
+p274_105,p274,p274_105,0,-1,/MeshRIR/S1-M3969_npy/ir_1742.npy,0,0.876,0.564
+p274_106,p274,p274_106,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-16_S_PA-23_E_Ch_11.wav,0,3.143,0.262
+p274_107,p274,p274_107,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_40_numComb_3977_mic_1_sweep_1.wav,0,0.871,0.706
+p274_108,p274,p274_108,0,-1,/MeshRIR/S1-M3969_npy/ir_1749.npy,0,0.949,0.463
+p274_109,p274,p274_109,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_11_numComb_1097_mic_3_sweep_3.wav,0,1.099,0.399
+p274_110,p274,p274_110,0,-1,/MeshRIR/S1-M3969_npy/ir_403.npy,0,1.238,0.611
+p274_111,p274,p274_111,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_7_numComb_668_mic_5_sweep_3.wav,0,1.422,0.478
+p274_112,p274,p274_112,0,-1,/MeshRIR/S1-M3969_npy/ir_1175.npy,0,1.044,0.608
+p274_113,p274,p274_113,0,-1,/MYRIAD/AIL/SL1/P1/CMA20_90_RIR.wav,0,1.699,0.428
+p274_114,p274,p274_114,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_50_numComb_5033_mic_2_sweep_2.wav,0,0.480,0.760
+p274_115,p274,p274_115,0,-1,/MeshRIR/S1-M3969_npy/ir_1346.npy,0,1.244,0.410
+p274_116,p274,p274_116,0,-1,/MeshRIR/S1-M3969_npy/ir_1155.npy,0,0.982,0.380
+p274_117,p274,p274_117,0,-1,/MeshRIR/S1-M3969_npy/ir_2267.npy,0,1.097,0.463
+p274_118,p274,p274_118,0,-1,/MYRIAD/AIL/SU5/P1/XM4_RIR.wav,0,1.720,0.419
+p274_119,p274,p274_119,0,-1,/MeshRIR/S1-M3969_npy/ir_3378.npy,0,1.150,0.399
+p274_120,p274,p274_120,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_1_numComb_103_mic_5_sweep_2.wav,0,1.949,2.317
+p274_121,p274,p274_121,0,-1,/MeshRIR/S1-M3969_npy/ir_101.npy,0,1.201,0.376
+p274_122,p274,p274_122,0,-1,/MeshRIR/S1-M3969_npy/ir_991.npy,0,1.149,0.390
+p274_123,p274,p274_123,0,-1,/MYRIAD/AIL/SL1/P1/CMA20_90_RIR.wav,0,1.937,0.428
+p274_124,p274,p274_124,0,-1,/MeshRIR/S1-M3969_npy/ir_3637.npy,0,1.079,0.478
+p274_125,p274,p274_125,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-07_S_PA-09_S_Ch_11.wav,0,0.970,0.293
+p274_126,p274,p274_126,0,-1,/MeshRIR/S1-M3969_npy/ir_2697.npy,0,0.979,0.531
+p274_127,p274,p274_127,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_53_numComb_5284_mic_4_sweep_3.wav,0,0.848,0.933
+p274_128,p274,p274_128,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-16_S_PA-03_N_Ch_16.wav,0,0.804,0.307
+p274_129,p274,p274_129,0,-1,/MeshRIR/S1-M3969_npy/ir_291.npy,0,1.009,0.388
+p274_130,p274,p274_130,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Reference Lav/MV4_AS2_Ref_Lav_R_PA-09_S_PA-03_W.wav,0,2.856,0.231
+p274_131,p274,p274_131,0,-1,/MYRIAD/AIL/SL6/P2/DHR_RIR.wav,0,1.277,0.385
+p274_132,p274,p274_132,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_4_numComb_344_mic_2_sweep_1.wav,0,1.452,0.365
+p274_133,p274,p274_133,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_9_numComb_930_mic_5_sweep_4.wav,0,1.537,0.535
+p274_134,p274,p274_134,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-08_S_PA-15_S_Ch_1.wav,0,1.240,0.244
+p274_135,p274,p274_135,0,-1,/MYRIAD/AIL/SL1/P2/CMA20_-90_RIR.wav,0,1.903,0.386
+p274_136,p274,p274_136,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-07_S_PA-12_W_Ch_20.wav,0,0.379,0.286
+p274_137,p274,p274_137,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_25_numComb_2534_mic_5_sweep_2.wav,0,1.520,0.526
+p274_138,p274,p274_138,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-16_S_PA-03_N_Ch_16.wav,0,0.867,0.307
+p274_139,p274,p274_139,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_28_numComb_2765_mic_2_sweep_1.wav,0,1.076,0.460
+p274_140,p274,p274_140,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-18_S_PA-23_N_Ch_10.wav,0,2.305,0.224
+p274_141,p274,p274_141,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_12_numComb_1168_mic_2_sweep_3.wav,0,1.258,0.423
+p274_142,p274,p274_142,0,-1,/MYRIAD/AIL/SU9/P2/XM5_RIR.wav,0,1.816,0.414
+p274_143,p274,p274_143,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_38_numComb_3826_mic_2_sweep_4.wav,0,0.781,0.560
+p274_144,p274,p274_144,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-16_S_PA-23_E_Ch_11.wav,0,2.937,0.262
+p274_146,p274,p274_146,0,-1,/MYRIAD/AIL/SU12/P1/XM1_RIR.wav,0,4.300,0.362
+p274_148,p274,p274_148,0,-1,/MeshRIR/S1-M3969_npy/ir_2167.npy,0,0.847,0.556
+p274_149,p274,p274_149,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_3_numComb_303_mic_1_sweep_5.wav,0,1.405,0.366
+p274_150,p274,p274_150,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_19_numComb_1920_mic_3_sweep_4.wav,0,1.016,0.479
+p274_151,p274,p274_151,0,-1,/MYRIAD/AIL/ST1/P1/CMA20_90_RIR.wav,0,1.307,0.405
+p274_152,p274,p274_152,0,-1,/MeshRIR/S1-M3969_npy/ir_2642.npy,0,1.109,0.406
+p274_153,p274,p274_153,0,-1,/MeshRIR/S1-M3969_npy/ir_1164.npy,0,1.058,0.551
+p274_154,p274,p274_154,0,-1,/BRUDEX/rir/rev_medium/RIR_medium_eMicRun_1_DOA_150deg.mat,2,7.105,0.319
+p274_155,p274,p274_155,0,-1,/MeshRIR/S1-M3969_npy/ir_3843.npy,0,0.879,0.471
+p274_156,p274,p274_156,0,-1,/MeshRIR/S1-M3969_npy/ir_504.npy,0,0.983,0.522
+p274_157,p274,p274_157,0,-1,/MeshRIR/S1-M3969_npy/ir_3061.npy,0,0.952,0.544
+p274_158,p274,p274_158,0,-1,/MeshRIR/S1-M3969_npy/ir_824.npy,0,1.025,0.370
+p274_159,p274,p274_159,0,-1,/MYRIAD/AIL/SU6/P1/CMA10_90_RIR.wav,0,1.855,0.375
+p274_160,p274,p274_160,0,-1,/MeshRIR/S1-M3969_npy/ir_2558.npy,0,1.111,0.365
+p274_161,p274,p274_161,0,-1,/MeshRIR/S1-M3969_npy/ir_1155.npy,0,1.234,0.380
+p274_162,p274,p274_162,0,-1,/MeshRIR/S1-M3969_npy/ir_2349.npy,0,1.052,0.503
+p274_163,p274,p274_163,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-18_S_PA-11_E_Ch_15.wav,0,1.853,0.239
+p274_164,p274,p274_164,0,-1,/MeshRIR/S1-M3969_npy/ir_2514.npy,0,0.795,0.377
+p274_166,p274,p274_166,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-23_S_PA-09_W_Ch_29.wav,0,1.726,0.262
+p274_167,p274,p274_167,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_12_numComb_1238_mic_5_sweep_1.wav,0,1.931,0.509
+p274_168,p274,p274_168,0,-1,/MeshRIR/S1-M3969_npy/ir_1602.npy,0,0.942,0.373
+p274_169,p274,p274_169,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-14_S_PA-15_E_Ch_28.wav,0,2.197,0.269
+p274_171,p274,p274_171,0,-1,/MeshRIR/S1-M3969_npy/ir_1990.npy,0,1.052,0.471
+p274_173,p274,p274_173,0,-1,/MeshRIR/S1-M3969_npy/ir_1698.npy,0,1.079,0.377
+p274_174,p274,p274_174,0,-1,/MeshRIR/S1-M3969_npy/ir_1759.npy,0,1.278,0.520
+p274_175,p274,p274_175,0,-1,/MeshRIR/S1-M3969_npy/ir_1155.npy,0,1.119,0.380
+p274_176,p274,p274_176,0,-1,/MYRIAD/AIL/SU8/P1/CMA10_-90_RIR.wav,0,2.392,0.370
+p274_177,p274,p274_177,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_50_numComb_4958_mic_3_sweep_5.wav,0,0.973,0.745
+p274_178,p274,p274_178,0,-1,/MeshRIR/S1-M3969_npy/ir_521.npy,0,1.054,0.420
+p274_179,p274,p274_179,0,-1,/MeshRIR/S1-M3969_npy/ir_3162.npy,0,1.093,0.414
+p274_180,p274,p274_180,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_12_numComb_1182_mic_3_sweep_5.wav,0,1.146,0.547
+p274_181,p274,p274_181,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_50_numComb_4959_mic_1_sweep_1.wav,0,0.655,0.687
+p274_182,p274,p274_182,0,-1,/MeshRIR/S1-M3969_npy/ir_1742.npy,0,1.032,0.564
+p274_183,p274,p274_183,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-16_S_PA-11_N_Ch_14.wav,0,0.512,0.304
+p274_184,p274,p274_184,0,-1,/MeshRIR/S1-M3969_npy/ir_1270.npy,0,0.911,0.481
+p274_185,p274,p274_185,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-16_S_PA-19_W_Ch_10.wav,0,2.266,0.288
+p274_186,p274,p274_186,0,-1,/MIT_RIRs/h260_Classroom_1txts.wav,0,0.707,0.284
+p274_187,p274,p274_187,0,-1,/MeshRIR/S1-M3969_npy/ir_2675.npy,0,1.125,0.446
+p274_188,p274,p274_188,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_2_numComb_168_mic_5_sweep_1.wav,0,1.514,2.496
+p274_189,p274,p274_189,0,-1,/MYRIAD/AIL/SL4/P2/CMA10_180_RIR.wav,0,3.010,0.382
+p274_190,p274,p274_190,0,-1,/MeshRIR/S1-M3969_npy/ir_1607.npy,0,0.945,0.451
+p274_191,p274,p274_191,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_39_numComb_3853_mic_2_sweep_1.wav,0,0.859,0.556
+p274_192,p274,p274_192,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_26_numComb_2583_mic_4_sweep_1.wav,0,1.372,0.584
+p274_193,p274,p274_193,0,-1,/MeshRIR/S1-M3969_npy/ir_241.npy,0,1.119,0.474
+p274_194,p274,p274_194,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_46_numComb_4619_mic_4_sweep_2.wav,0,1.258,0.718
+p274_195,p274,p274_195,0,-1,/MYRIAD/AIL/SL1/P1/CMA10_90_RIR.wav,0,3.300,0.374
+p274_196,p274,p274_196,0,-1,/MeshRIR/S1-M3969_npy/ir_563.npy,0,1.107,0.356
+p274_197,p274,p274_197,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-05_S_PA-12_W_Ch_15.wav,0,0.350,0.295
+p274_198,p274,p274_198,0,-1,/MYRIAD/AIL/SU6/P1/CMA10_90_RIR.wav,0,1.841,0.375
+p274_199,p274,p274_199,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_7_numComb_695_mic_4_sweep_5.wav,0,1.815,0.943
+p274_200,p274,p274_200,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_8_numComb_761_mic_5_sweep_5.wav,0,1.683,0.468
+p274_201,p274,p274_201,0,-1,/MeshRIR/S32-M441_npy/ir_439.npy,16,1.188,0.535
+p274_202,p274,p274_202,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-01_S_PA-11_W_Ch_6.wav,0,0.695,0.312
+p274_203,p274,p274_203,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_13_numComb_1265_mic_2_sweep_2.wav,0,1.250,0.402
+p274_204,p274,p274_204,0,-1,/AIR_1_4_nophones/AIR_wav_files/air_booth_1_1_1.wav,0,2.645,0.134
+p274_205,p274,p274_205,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-12_S_PA-11_E_Ch_1.wav,0,2.103,0.278
+p274_206,p274,p274_206,0,-1,/MeshRIR/S1-M3969_npy/ir_3362.npy,0,1.037,0.555
+p274_207,p274,p274_207,0,-1,/MeshRIR/S1-M3969_npy/ir_3015.npy,0,1.017,0.360
+p274_208,p274,p274_208,0,-1,/MeshRIR/S1-M3969_npy/ir_3178.npy,0,1.050,0.506
+p274_209,p274,p274_209,0,-1,/MYRIAD/AIL/SU8/P1/XM1_RIR.wav,0,2.965,0.365
+p274_210,p274,p274_210,0,-1,/MeshRIR/S1-M3969_npy/ir_262.npy,0,1.217,0.623
+p274_211,p274,p274_211,0,-1,/MeshRIR/S1-M3969_npy/ir_143.npy,0,1.217,0.486
+p274_212,p274,p274_212,0,-1,/MeshRIR/S1-M3969_npy/ir_162.npy,0,1.070,0.395
+p274_213,p274,p274_213,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS1/AS1/Eigenmike Capsules/MV4_AS1_Eigen_R_PA-15_S_PA-23_S_Ch_15.wav,0,0.891,0.271
+p274_214,p274,p274_214,0,-1,/MeshRIR/S1-M3969_npy/ir_1603.npy,0,1.268,0.373
+p274_215,p274,p274_215,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-23_S_PA-23_W_Ch_9.wav,0,1.350,0.210
+p274_216,p274,p274_216,0,-1,/MeshRIR/S1-M3969_npy/ir_3637.npy,0,1.133,0.478
+p274_217,p274,p274_217,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_22_numComb_2162_mic_1_sweep_4.wav,0,1.308,0.492
+p274_218,p274,p274_218,0,-1,/MeshRIR/S1-M3969_npy/ir_1698.npy,0,1.060,0.377
+p274_219,p274,p274_219,0,-1,/MeshRIR/S1-M3969_npy/ir_635.npy,0,1.227,0.408
+p274_220,p274,p274_220,0,-1,/MeshRIR/S1-M3969_npy/ir_331.npy,0,1.017,0.431
+p274_221,p274,p274_221,0,-1,/MeshRIR/S1-M3969_npy/ir_563.npy,0,1.186,0.356
+p274_222,p274,p274_222,0,-1,/MeshRIR/S1-M3969_npy/ir_2996.npy,0,0.961,0.453
+p274_223,p274,p274_223,0,-1,/AIR_1_4_nophones/AIR_wav_files/air_stairway_0_1_2_15_mls.wav,0,1.377,0.730
+p274_224,p274,p274_224,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3388_mic_1_sweep_3.wav,0,1.312,0.518
+p274_225,p274,p274_225,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_21_numComb_2118_mic_3_sweep_2.wav,0,1.310,0.506
+p274_226,p274,p274_226,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-16_S_PA-11_N_Ch_14.wav,0,0.664,0.304
+p274_227,p274,p274_227,0,-1,/MeshRIR/S1-M3969_npy/ir_1742.npy,0,0.933,0.564
+p274_228,p274,p274_228,0,-1,/MeshRIR/S1-M3969_npy/ir_710.npy,0,0.924,0.503
+p274_229,p274,p274_229,0,-1,/MeshRIR/S1-M3969_npy/ir_3216.npy,0,1.115,0.424
+p274_230,p274,p274_230,0,-1,/BRUDEX/rir/rev_medium/RIR_medium_eMicRun_2_DOA_90deg.mat,0,3.059,0.330
+p274_231,p274,p274_231,0,-1,/MeshRIR/S1-M3969_npy/ir_1434.npy,0,1.098,0.354
+p274_232,p274,p274_232,0,-1,/MYRIAD/AIL/SL8/P1/CMA20_45_RIR.wav,0,1.889,0.431
+p274_233,p274,p274_233,0,-1,/MYRIAD/AIL/SL2/P1/BTELB_RIR.wav,0,4.710,0.347
+p274_234,p274,p274_234,0,-1,/Palimpsest/03 Number 3 Covered Slip/03a-#3Mezz-KM184-Distant-BURST.wav,1,0.398,2.801
+p274_235,p274,p274_235,0,-1,/MYRIAD/AIL/SL3/P1/XM1_RIR.wav,0,5.443,0.371
+p274_236,p274,p274_236,0,-1,/MYRIAD/AIL/SU8/P1/XM1_RIR.wav,0,2.636,0.365
+p274_237,p274,p274_237,0,-1,/MeshRIR/S1-M3969_npy/ir_680.npy,0,1.123,0.458
+p274_238,p274,p274_238,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4099_mic_2_sweep_4.wav,0,0.697,0.583
+p274_239,p274,p274_239,0,-1,/MYRIAD/AIL/SL2/P1/DHL_RIR.wav,0,1.826,0.387
+p274_240,p274,p274_240,0,-1,/MeshRIR/S1-M3969_npy/ir_504.npy,0,1.118,0.522
+p274_241,p274,p274_241,0,-1,/MeshRIR/S1-M3969_npy/ir_491.npy,0,1.156,0.515
+p274_242,p274,p274_242,0,-1,/MYRIAD/AIL/SL3/P1/XM1_RIR.wav,0,5.376,0.371
+p274_243,p274,p274_243,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-09_S_PA-12_W_Ch_5.wav,0,1.116,0.311
+p274_244,p274,p274_244,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-03_S_PA-12_S_Ch_25.wav,0,1.604,0.284
+p274_245,p274,p274_245,0,-1,/MeshRIR/S32-M441_npy/ir_344.npy,31,0.908,0.645
+p274_246,p274,p274_246,0,-1,/ACE-Challenge/Chromebook/Building_Lobby/1/Chromebook_EE_lobby_1_RIR.wav,1,0.551,0.666
+p274_247,p274,p274_247,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_31_numComb_3070_mic_5_sweep_2.wav,0,1.454,0.562
+p274_248,p274,p274_248,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4156_mic_5_sweep_2.wav,0,1.190,0.653
+p274_249,p274,p274_249,0,-1,/MYRIAD/AIL/SL7/P1/CMA20_45_RIR.wav,0,1.259,0.407
+p274_250,p274,p274_250,0,-1,/MeshRIR/S1-M3969_npy/ir_2453.npy,0,1.086,0.437
+p274_251,p274,p274_251,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_12_numComb_1182_mic_3_sweep_5.wav,0,1.516,0.547
+p274_252,p274,p274_252,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_18_numComb_1766_mic_3_sweep_2.wav,0,1.324,0.468
+p274_253,p274,p274_253,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4171_mic_5_sweep_1.wav,0,1.127,0.646
+p274_254,p274,p274_254,0,-1,/MeshRIR/S1-M3969_npy/ir_2443.npy,0,1.026,0.424
+p274_255,p274,p274_255,0,-1,/MYRIAD/AIL/SU12/P1/XM1_RIR.wav,0,4.233,0.362
+p274_256,p274,p274_256,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_24_numComb_2350_mic_1_sweep_4.wav,0,1.246,0.452
+p274_257,p274,p274_257,0,-1,/MeshRIR/S1-M3969_npy/ir_2391.npy,0,0.885,0.390
+p274_258,p274,p274_258,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_47_numComb_4660_mic_1_sweep_3.wav,0,0.734,0.678
+p274_259,p274,p274_259,0,-1,/BRUDEX/rir/rev_low/RIR_low_eMicRun_3_DOA_60deg.mat,16,0.965,0.275
+p274_260,p274,p274_260,0,-1,/MeshRIR/S1-M3969_npy/ir_577.npy,0,1.077,0.503
+p274_261,p274,p274_261,0,-1,/MeshRIR/S1-M3969_npy/ir_1168.npy,0,1.220,0.516
+p274_262,p274,p274_262,0,-1,/MeshRIR/S1-M3969_npy/ir_262.npy,0,1.385,0.623
+p274_263,p274,p274_263,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4106_mic_2_sweep_5.wav,0,0.912,0.624
+p274_264,p274,p274_264,0,-1,/MeshRIR/S1-M3969_npy/ir_38.npy,0,1.093,0.566
+p274_266,p274,p274_266,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2655_mic_5_sweep_5.wav,0,1.612,0.535
+p274_267,p274,p274_267,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_14_numComb_1417_mic_3_sweep_5.wav,0,1.665,0.556
+p274_268,p274,p274_268,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-18_S_PA-19_E_Ch_11.wav,0,1.719,0.292
+p274_269,p274,p274_269,0,-1,/MeshRIR/S1-M3969_npy/ir_1664.npy,0,0.983,0.562
+p274_270,p274,p274_270,0,-1,/MeshRIR/S1-M3969_npy/ir_676.npy,0,1.189,0.366
+p274_271,p274,p274_271,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_52_numComb_5177_mic_2_sweep_5.wav,0,0.518,0.820
+p274_272,p274,p274_272,0,-1,/MeshRIR/S1-M3969_npy/ir_6.npy,0,1.109,0.495
+p274_273,p274,p274_273,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_4_numComb_428_mic_5_sweep_2.wav,0,1.819,0.468
+p274_274,p274,p274_274,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_21_numComb_2118_mic_3_sweep_2.wav,0,1.293,0.506
+p274_275,p274,p274_275,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_32_numComb_3227_mic_5_sweep_3.wav,0,1.406,0.571
+p274_276,p274,p274_276,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4054_mic_1_sweep_3.wav,0,0.934,0.574
+p274_277,p274,p274_277,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-03_S_PA-12_W_Ch_30.wav,0,1.070,0.328
+p274_278,p274,p274_278,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_11_numComb_1055_mic_4_sweep_5.wav,0,1.643,0.540
+p274_279,p274,p274_279,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2655_mic_5_sweep_5.wav,0,1.688,0.535
+p274_280,p274,p274_280,0,-1,/MeshRIR/S1-M3969_npy/ir_1761.npy,0,1.127,0.455
+p274_281,p274,p274_281,0,-1,/MeshRIR/S1-M3969_npy/ir_1821.npy,0,1.141,0.527
+p274_282,p274,p274_282,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_22_numComb_2215_mic_4_sweep_4.wav,0,1.792,0.524
+p274_283,p274,p274_283,0,-1,/MeshRIR/S1-M3969_npy/ir_819.npy,0,1.068,0.596
+p274_284,p274,p274_284,0,-1,/MYRIAD/AIL/SL4/P1/CMA10_90_RIR.wav,0,3.461,0.363
+p274_285,p274,p274_285,0,-1,/MYRIAD/AIL/SL6/P2/CMA20_-135_RIR.wav,0,1.399,0.419
+p274_286,p274,p274_286,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_44_numComb_4380_mic_3_sweep_1.wav,0,0.956,0.713
+p274_287,p274,p274_287,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_19_numComb_1846_mic_3_sweep_3.wav,0,1.212,0.513
+p274_288,p274,p274_288,0,-1,/MeshRIR/S1-M3969_npy/ir_1990.npy,0,1.030,0.471
+p274_289,p274,p274_289,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_32_numComb_3227_mic_5_sweep_3.wav,0,1.237,0.571
+p274_290,p274,p274_290,0,-1,/MYRIAD/AIL/SU3/P2/XM1_RIR.wav,0,2.308,0.364
+p274_291,p274,p274_291,0,-1,/MYRIAD/AIL/SL6/P2/CMA20_-135_RIR.wav,0,1.441,0.419
+p274_292,p274,p274_292,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_30_numComb_2992_mic_2_sweep_1.wav,0,1.024,0.488
+p274_293,p274,p274_293,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_25_numComb_2451_mic_2_sweep_1.wav,0,0.819,0.460
+p274_294,p274,p274_294,0,-1,/MeshRIR/S1-M3969_npy/ir_2829.npy,0,1.072,0.457
+p274_295,p274,p274_295,0,-1,/MeshRIR/S1-M3969_npy/ir_2918.npy,0,1.061,0.297
+p274_296,p274,p274_296,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_32_numComb_3229_mic_1_sweep_3.wav,0,1.030,0.496
+p274_297,p274,p274_297,0,-1,/MYRIAD/AIL/SL5/P1/XM3_RIR.wav,0,5.124,0.359
+p274_299,p274,p274_299,0,-1,/MYRIAD/AIL/SU9/P2/XM2_RIR.wav,0,3.030,0.378
+p274_300,p274,p274_300,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_29_numComb_2926_mic_1_sweep_3.wav,0,1.154,0.483
+p274_301,p274,p274_301,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_29_numComb_2926_mic_1_sweep_3.wav,0,1.264,0.483
+p274_302,p274,p274_302,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_37_numComb_3711_mic_2_sweep_2.wav,0,0.691,0.556
+p274_303,p274,p274_303,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS1/AS1/Eigenmike Capsules/MV4_AS1_Eigen_R_PA-15_S_PA-23_S_Ch_15.wav,0,1.187,0.271
+p274_304,p274,p274_304,0,-1,/MeshRIR/S1-M3969_npy/ir_3872.npy,0,1.177,0.524
+p274_305,p274,p274_305,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-05_S_PA-12_W_Ch_15.wav,0,0.424,0.295
+p274_306,p274,p274_306,0,-1,/MYRIAD/AIL/SU4/P1/CMA20_0_RIR.wav,0,1.956,0.402
+p274_307,p274,p274_307,0,-1,/MeshRIR/S1-M3969_npy/ir_1990.npy,0,1.121,0.471
+p274_308,p274,p274_308,0,-1,/MeshRIR/S1-M3969_npy/ir_1419.npy,0,1.025,0.406
+p274_309,p274,p274_309,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_10_numComb_981_mic_3_sweep_1.wav,0,1.286,0.567
+p274_310,p274,p274_310,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS1/AS1/TOA/MV4_AS1_Eigen_R_PA-11_S_PA-12_N_3OA.wav,12,2.198,0.274
+p274_311,p274,p274_311,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_35_numComb_3447_mic_5_sweep_3.wav,0,0.773,0.577
+p274_312,p274,p274_312,0,-1,/MeshRIR/S1-M3969_npy/ir_2697.npy,0,1.049,0.531
+p274_313,p274,p274_313,0,-1,/MeshRIR/S1-M3969_npy/ir_1759.npy,0,1.107,0.520
+p274_314,p274,p274_314,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-15_S_PA-03_S_Ch_5.wav,0,1.462,0.262
+p274_315,p274,p274_315,0,-1,/MeshRIR/S1-M3969_npy/ir_2707.npy,0,1.115,0.590
+p274_316,p274,p274_316,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_33_numComb_3288_mic_3_sweep_5.wav,0,1.057,0.553
+p274_317,p274,p274_317,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_50_numComb_5033_mic_2_sweep_2.wav,0,0.546,0.760
+p274_318,p274,p274_318,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_24_numComb_2350_mic_1_sweep_4.wav,0,1.193,0.452
+p274_319,p274,p274_319,0,-1,/MeshRIR/S1-M3969_npy/ir_3015.npy,0,0.903,0.360
+p274_320,p274,p274_320,0,-1,/MeshRIR/S1-M3969_npy/ir_1515.npy,0,1.028,0.394
+p274_321,p274,p274_321,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_54_numComb_37_mic_1_sweep_3.wav,0,0.538,0.840
+p274_322,p274,p274_322,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-09_S_PA-12_W_Ch_5.wav,0,1.052,0.311
+p274_323,p274,p274_323,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_14_numComb_1391_mic_1_sweep_4.wav,0,1.222,0.418
+p274_324,p274,p274_324,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_8_numComb_4_mic_4_sweep_3.wav,0,1.913,2.870
+p274_325,p274,p274_325,0,-1,/MYRIAD/AIL/SU9/P1/BTELF_RIR.wav,0,4.076,0.344
+p274_326,p274,p274_326,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_24_numComb_2350_mic_1_sweep_4.wav,0,1.114,0.452
+p274_327,p274,p274_327,0,-1,/MIT_RIRs/h260_Classroom_1txts.wav,0,0.734,0.284
+p274_328,p274,p274_328,0,-1,/MeshRIR/S1-M3969_npy/ir_2910.npy,0,0.866,0.410
+p274_329,p274,p274_329,0,-1,/MeshRIR/S1-M3969_npy/ir_3576.npy,0,1.063,0.388
+p274_330,p274,p274_330,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_14_numComb_1425_mic_4_sweep_4.wav,0,1.597,0.516
+p274_331,p274,p274_331,0,-1,/BRUDEX/rir/rev_high/RIR_av_high_DOA_-90deg.mat,31,2.290,0.861
+p274_332,p274,p274_332,0,-1,/MeshRIR/S32-M441_npy/ir_340.npy,29,1.075,0.677
+p274_333,p274,p274_333,0,-1,/MYRIAD/AIL/SU4/P2/CMA10_-90_RIR.wav,0,2.662,0.372
+p274_334,p274,p274_334,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4221_mic_5_sweep_4.wav,0,1.135,0.631
+p274_335,p274,p274_335,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-18_S_PA-11_E_Ch_24.wav,0,2.079,0.336
+p274_336,p274,p274_336,0,-1,/MeshRIR/S1-M3969_npy/ir_1453.npy,0,1.065,0.329
+p274_337,p274,p274_337,0,-1,/MYRIAD/AIL/SL7/P2/XM3_RIR.wav,0,4.570,0.379
+p274_338,p274,p274_338,0,-1,/MeshRIR/S1-M3969_npy/ir_3485.npy,0,0.903,0.523
+p274_339,p274,p274_339,0,-1,/MeshRIR/S1-M3969_npy/ir_3732.npy,0,1.030,0.352
+p274_340,p274,p274_340,0,-1,/MeshRIR/S1-M3969_npy/ir_1488.npy,0,1.096,0.529
+p274_341,p274,p274_341,0,-1,/MeshRIR/S1-M3969_npy/ir_2267.npy,0,1.078,0.463
+p274_342,p274,p274_342,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_9_numComb_908_mic_1_sweep_1.wav,0,1.183,0.395
+p274_343,p274,p274_343,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_26_numComb_2563_mic_2_sweep_3.wav,0,1.223,0.484
+p274_344,p274,p274_344,0,-1,/MeshRIR/S1-M3969_npy/ir_2259.npy,0,0.964,0.323
+p274_345,p274,p274_345,0,-1,/MeshRIR/S32-M441_npy/ir_136.npy,11,0.684,0.687
+p274_346,p274,p274_346,0,-1,/MIT_RIRs/h002_Bedroom_62txts.wav,0,0.680,0.340
+p274_347,p274,p274_347,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2700_mic_5_sweep_4.wav,0,1.164,0.464
+p274_348,p274,p274_348,0,-1,/MeshRIR/S1-M3969_npy/ir_1346.npy,0,1.212,0.410
+p274_349,p274,p274_349,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_30_numComb_2992_mic_2_sweep_1.wav,0,0.952,0.488
+p274_350,p274,p274_350,0,-1,/MIT_RIRs/h107_Supermerket_1txts.wav,0,0.634,0.639
+p274_351,p274,p274_351,0,-1,/MeshRIR/S1-M3969_npy/ir_1742.npy,0,1.015,0.564
+p274_352,p274,p274_352,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_16_numComb_1546_mic_1_sweep_1.wav,0,1.424,0.420
+p274_353,p274,p274_353,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS3/AS3/Eigenmike Capsules/MV5_AS3_Eigen_R_PA-3A_S_PA-06_Ch_19.wav,0,1.436,0.295
+p274_354,p274,p274_354,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4221_mic_5_sweep_4.wav,0,1.216,0.631
+p274_355,p274,p274_355,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_47_numComb_4701_mic_3_sweep_4.wav,0,0.733,0.684
+p274_356,p274,p274_356,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-02_S_PA-09_E_Ch_13.wav,0,0.573,0.300
+p274_357,p274,p274_357,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_2_numComb_182_mic_5_sweep_5.wav,0,1.929,1.666
+p274_358,p274,p274_358,0,-1,/MYRIAD/SAL/S-45_2/DHR_RIR.wav,0,3.922,1.644
+p274_359,p274,p274_359,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_1_numComb_105_mic_3_sweep_3.wav,0,1.079,2.500
+p274_360,p274,p274_360,0,-1,/MeshRIR/S1-M3969_npy/ir_815.npy,0,0.971,0.451
+p274_361,p274,p274_361,0,-1,/MeshRIR/S1-M3969_npy/ir_3517.npy,0,1.152,0.597
+p274_362,p274,p274_362,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_22_numComb_2165_mic_5_sweep_4.wav,0,1.750,0.492
+p274_363,p274,p274_363,0,-1,/MeshRIR/S1-M3969_npy/ir_162.npy,0,1.215,0.395
+p274_364,p274,p274_364,0,-1,/MeshRIR/S1-M3969_npy/ir_3439.npy,0,0.911,0.528
+p274_365,p274,p274_365,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_41_numComb_4106_mic_2_sweep_5.wav,0,0.834,0.624
+p274_366,p274,p274_366,0,-1,/MeshRIR/S1-M3969_npy/ir_2958.npy,0,0.967,0.312
+p274_367,p274,p274_367,0,-1,/MeshRIR/S1-M3969_npy/ir_1611.npy,0,1.011,0.570
+p274_368,p274,p274_368,0,-1,/MeshRIR/S1-M3969_npy/ir_2299.npy,0,1.046,0.589
+p274_369,p274,p274_369,0,-1,/MeshRIR/S1-M3969_npy/ir_511.npy,0,1.155,0.491
+p274_370,p274,p274_370,0,-1,/MeshRIR/S1-M3969_npy/ir_2996.npy,0,0.992,0.453
+p274_371,p274,p274_371,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2655_mic_5_sweep_5.wav,0,1.483,0.535
+p274_372,p274,p274_372,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_34_numComb_3345_mic_3_sweep_5.wav,0,1.279,0.562
+p274_373,p274,p274_373,0,-1,/MeshRIR/S1-M3969_npy/ir_824.npy,0,0.943,0.370
+p274_374,p274,p274_374,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_37_numComb_3711_mic_2_sweep_2.wav,0,0.738,0.556
+p274_375,p274,p274_375,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_49_numComb_4843_mic_2_sweep_3.wav,0,0.757,0.673
+p274_376,p274,p274_376,0,-1,/Palimpsest/07_Air_Raid_Shelter/07-DPA 4061-Stereo-48K-BURST/07b-AirRaidShelterRear-DPA 4061-Stereo-48K-BURST.wav,1,0.070,1.274
+p274_377,p274,p274_377,0,-1,/MeshRIR/S1-M3969_npy/ir_303.npy,0,1.119,0.457
+p274_378,p274,p274_378,0,-1,/MYRIAD/AIL/ST2/P2/XM5_RIR.wav,0,1.191,0.433
+p274_379,p274,p274_379,0,-1,/MeshRIR/S1-M3969_npy/ir_551.npy,0,1.103,0.431
+p274_380,p274,p274_380,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_7_numComb_695_mic_4_sweep_1.wav,0,1.893,1.168
+p274_381,p274,p274_381,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_1_numComb_105_mic_3_sweep_3.wav,0,1.450,2.500
+p274_382,p274,p274_382,0,-1,/MeshRIR/S1-M3969_npy/ir_1417.npy,0,1.033,0.490
+p274_383,p274,p274_383,0,-1,/MYRIAD/AIL/SU2/P2/DHL_RIR.wav,0,3.844,0.395
+p274_384,p274,p274_384,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-01_S_PA-11_W_Ch_6.wav,0,0.808,0.312
+p274_385,p274,p274_385,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_53_numComb_5266_mic_4_sweep_4.wav,0,1.020,0.884
+p274_386,p274,p274_386,0,-1,/MYRIAD/AIL/ST1/P2/CMA20_0_RIR.wav,0,2.671,0.403
+p274_387,p274,p274_387,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_54_numComb_60_mic_1_sweep_3.wav,0,0.636,0.941
+p274_388,p274,p274_388,0,-1,/MeshRIR/S1-M3969_npy/ir_3586.npy,0,1.217,0.443
+p274_389,p274,p274_389,0,-1,/MeshRIR/S1-M3969_npy/ir_380.npy,0,0.967,0.635
+p274_390,p274,p274_390,0,-1,/MeshRIR/S1-M3969_npy/ir_2562.npy,0,1.030,0.579
+p274_391,p274,p274_391,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_50_numComb_4959_mic_1_sweep_1.wav,0,0.720,0.687
+p274_392,p274,p274_392,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-03_S_PA-15_W_Ch_32.wav,0,2.828,0.252
+p274_393,p274,p274_393,0,-1,/MeshRIR/S1-M3969_npy/ir_1419.npy,0,1.002,0.406
+p274_394,p274,p274_394,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS1/AS1/Eigenmike Capsules/MV5_AS1_Eigen_R_PA-7B_S_PA-7C_N_Ch_27.wav,0,1.086,0.317
+p274_396,p274,p274_396,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_44_numComb_4380_mic_3_sweep_1.wav,0,0.996,0.713
+p274_397,p274,p274_397,0,-1,/MeshRIR/S1-M3969_npy/ir_38.npy,0,1.025,0.566
+p274_398,p274,p274_398,0,-1,/MeshRIR/S1-M3969_npy/ir_2727.npy,0,1.132,0.443
+p274_399,p274,p274_399,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2677_mic_1_sweep_2.wav,0,1.010,0.462
+p274_400,p274,p274_400,0,-1,/MIT_RIRs/h001_Bedroom_65txts.wav,0,0.857,0.273
+p274_401,p274,p274_401,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-16_S_PA-19_W_Ch_10.wav,0,2.674,0.288
+p274_402,p274,p274_402,0,-1,/MeshRIR/S1-M3969_npy/ir_708.npy,0,1.040,0.387
+p274_403,p274,p274_403,0,-1,/MYRIAD/AIL/SL1/P2/CMA10_180_RIR.wav,0,4.582,0.363
+p274_404,p274,p274_404,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-03_S_PA-12_W_Ch_30.wav,0,0.988,0.328
+p274_405,p274,p274_405,0,-1,/MeshRIR/S1-M3969_npy/ir_3907.npy,0,1.098,0.500
+p274_406,p274,p274_406,0,-1,/MeshRIR/S1-M3969_npy/ir_380.npy,0,1.109,0.635
+p274_407,p274,p274_407,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_10_numComb_1011_mic_1_sweep_4.wav,0,1.369,0.389
+p274_408,p274,p274_408,0,-1,/MeshRIR/S1-M3969_npy/ir_485.npy,0,1.247,0.455
+p274_409,p274,p274_409,0,-1,/MYRIAD/AIL/SU11/P1/CMA20_-135_RIR.wav,0,1.405,0.426
+p274_410,p274,p274_410,0,-1,/MeshRIR/S1-M3969_npy/ir_485.npy,0,1.165,0.455
+p274_411,p274,p274_411,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_4_numComb_400_mic_2_sweep_4.wav,0,1.505,0.379
+p274_412,p274,p274_412,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-03_S_PA-12_S_Ch_25.wav,0,1.527,0.284
+p274_413,p274,p274_413,0,-1,/MYRIAD/AIL/SU9/P1/BTELF_RIR.wav,0,4.403,0.344
+p274_414,p274,p274_414,0,-1,/MIT_RIRs/h001_Bedroom_65txts.wav,0,0.712,0.273
+p274_415,p274,p274_415,0,-1,/MYRIAD/AIL/SL5/P1/XM3_RIR.wav,0,5.188,0.359
+p274_416,p274,p274_416,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-15_S_PA-03_S_Ch_5.wav,0,1.862,0.262
+p274_417,p274,p274_417,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_52_numComb_5210_mic_5_sweep_3.wav,0,1.127,0.802
+p274_418,p274,p274_418,0,-1,/MYRIAD/AIL/SL4/P1/CMA10_90_RIR.wav,0,3.666,0.363
+p274_419,p274,p274_419,0,-1,/ARNI_IR/numClosed_0-5/IR_numClosed_1_numComb_105_mic_1_sweep_2.wav,0,1.199,0.377
+p274_420,p274,p274_420,0,-1,/MeshRIR/S1-M3969_npy/ir_144.npy,0,1.098,0.384
+p274_421,p274,p274_421,0,-1,/MeshRIR/S32-M441_npy/ir_310.npy,21,0.787,0.680
+p274_422,p274,p274_422,0,-1,/MeshRIR/S1-M3969_npy/ir_3106.npy,0,1.075,0.585
+p274_424,p274,p274_424,0,-1,/MeshRIR/S1-M3969_npy/ir_2450.npy,0,0.967,0.587
+p274_425,p274,p274_425,0,-1,/MeshRIR/S1-M3969_npy/ir_3190.npy,0,1.145,0.571
+p274_426,p274,p274_426,0,-1,/ARNI_IR/numClosed_46-55/IR_numClosed_52_numComb_5177_mic_2_sweep_5.wav,0,0.535,0.820
+p274_427,p274,p274_427,0,-1,/MeshRIR/S32-M441_npy/ir_136.npy,27,1.164,0.668
+p274_428,p274,p274_428,0,-1,/MeshRIR/S1-M3969_npy/ir_819.npy,0,1.104,0.596
+p274_429,p274,p274_429,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_40_numComb_4003_mic_1_sweep_4.wav,0,1.068,0.570
+p274_430,p274,p274_430,0,-1,/MYRIAD/AIL/SU9/P2/XM2_RIR.wav,0,3.399,0.378
+p274_431,p274,p274_431,0,-1,/MeshRIR/S1-M3969_npy/ir_262.npy,0,1.214,0.623
+p274_432,p274,p274_432,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_29_numComb_2926_mic_1_sweep_3.wav,0,1.014,0.483
+p274_433,p274,p274_433,0,-1,/MeshRIR/S1-M3969_npy/ir_680.npy,0,1.108,0.458
+p274_434,p274,p274_434,0,-1,/ACE-Challenge/Single/Office_1/1/Single_502_1_RIR.wav,0,1.500,0.339
+p274_435,p274,p274_435,0,-1,/MeshRIR/S1-M3969_npy/ir_380.npy,0,1.098,0.635
+p274_436,p274,p274_436,0,-1,/ARNI_IR/numClosed_16-25/IR_numClosed_19_numComb_1920_mic_3_sweep_4.wav,0,1.047,0.479
+p274_437,p274,p274_437,0,-1,/MeshRIR/S1-M3969_npy/ir_1515.npy,0,0.999,0.394
+p274_438,p274,p274_438,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4156_mic_5_sweep_2.wav,0,1.230,0.653
+p274_439,p274,p274_439,0,-1,/MYRIAD/AIL/SL4/P1/CMA10_90_RIR.wav,0,3.636,0.363
+p274_440,p274,p274_440,0,-1,/MeshRIR/S1-M3969_npy/ir_635.npy,0,1.168,0.408
+p274_441,p274,p274_441,0,-1,/MeshRIR/S1-M3969_npy/ir_3207.npy,0,1.051,0.541
+p274_442,p274,p274_442,0,-1,/MeshRIR/S1-M3969_npy/ir_3162.npy,0,1.054,0.414
+p274_443,p274,p274_443,0,-1,/ACE-Challenge/Chromebook/Building_Lobby/1/Chromebook_EE_lobby_1_RIR.wav,0,0.593,0.663
+p274_444,p274,p274_444,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_37_numComb_3707_mic_2_sweep_5.wav,0,1.059,0.540
+p274_445,p274,p274_445,0,-1,/MeshRIR/S1-M3969_npy/ir_1910.npy,0,0.926,0.499
+p274_446,p274,p274_446,0,-1,/MYRIAD/AIL/SU8/P1/CMA10_-90_RIR.wav,0,2.470,0.370
+p274_447,p274,p274_447,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_27_numComb_2677_mic_1_sweep_2.wav,0,1.125,0.462
+p274_448,p274,p274_448,0,-1,/MYRIAD/AIL/SU8/P2/XM4_RIR.wav,0,1.514,0.423
+p274_449,p274,p274_449,0,-1,/BBC_Maida_Vale_RIR/MV5/MV5/AS1/AS1/Eigenmike Capsules/MV5_AS1_Eigen_R_PA-3A_S_PA-3B_S_Ch_4.wav,0,0.781,0.294
+p274_450,p274,p274_450,0,-1,/MeshRIR/S1-M3969_npy/ir_1364.npy,0,1.043,0.417
+p274_451,p274,p274_451,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-07_S_PA-12_W_Ch_20.wav,0,0.467,0.286
+p274_452,p274,p274_452,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_PA-23_S_PA-09_W_Ch_29.wav,0,2.140,0.262
+p274_453,p274,p274_453,0,-1,/MeshRIR/S1-M3969_npy/ir_403.npy,0,1.360,0.611
+p274_454,p274,p274_454,0,-1,/MeshRIR/S32-M441_npy/ir_98.npy,3,1.131,0.673
+p274_455,p274,p274_455,0,-1,/ARNI_IR/numClosed_26-35/IR_numClosed_32_numComb_3201_mic_3_sweep_4.wav,0,1.200,0.596
+p274_456,p274,p274_456,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS2/AS2/Eigenmike Capsules/MV4_AS2_Eigen_R_OA-18_S_PA-11_E_Ch_24.wav,0,2.142,0.336
+p274_457,p274,p274_457,0,-1,/ARNI_IR/numClosed_6-15/IR_numClosed_7_numComb_695_mic_4_sweep_5.wav,0,1.970,0.943
+p274_458,p274,p274_458,0,-1,/MeshRIR/S1-M3969_npy/ir_2642.npy,0,1.068,0.406
+p274_459,p274,p274_459,0,-1,/BBC_Maida_Vale_RIR/MV4/MV4/AS1/AS1/TOA/MV4_AS1_Eigen_R_PA-11_S_PA-12_N_3OA.wav,1,0.426,0.246
+p274_460,p274,p274_460,0,-1,/MeshRIR/S1-M3969_npy/ir_2074.npy,0,1.324,0.303
+p274_461,p274,p274_461,0,-1,/MeshRIR/S32-M441_npy/ir_344.npy,0,0.458,0.651
+p274_462,p274,p274_462,0,-1,/MYRIAD/AIL/SU12/P2/CMA20_-135_RIR.wav,0,1.432,0.409
+p274_463,p274,p274_463,0,-1,/MeshRIR/S32-M441_npy/ir_310.npy,10,1.305,0.700
+p274_464,p274,p274_464,0,-1,/MeshRIR/S1-M3969_npy/ir_6.npy,0,1.202,0.495
+p274_465,p274,p274_465,0,-1,/MYRIAD/AIL/SU5/P2/XM1_RIR.wav,0,2.905,0.365
+p274_466,p274,p274_466,0,-1,/MeshRIR/S1-M3969_npy/ir_3711.npy,0,0.993,0.392
+p274_467,p274,p274_467,0,-1,/ARNI_IR/numClosed_36-45/IR_numClosed_42_numComb_4156_mic_5_sweep_2.wav,0,1.320,0.653
+p274_468,p274,p274_468,0,-1,/MYRIAD/AIL/ST4/P2/XM2_RIR.wav,0,5.004,0.378
+p274_469,p274,p274_469,0,-1,/MeshRIR/S1-M3969_npy/ir_2996.npy,0,0.890,0.453
+p274_470,p274,p274_470,0,-1,/MeshRIR/S32-M441_npy/ir_53.npy,14,0.936,0.657
